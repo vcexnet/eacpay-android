@@ -74,8 +74,8 @@ $ git submodule update
 7. Go to SDK Manager and download all the SDK Platforms and SDK Tools
 9. Build -> Rebuild Project
 
-### Litewallet Team:
+### Eacpay Team:
 * [Development Code of Conduct](https://github.com/vcexnet/eacpaywallet/blob/master/DEVELOPMENT.md)
 ---
-**Litecoin** source code is available at https://github.com/Sandokaaan/EarthCoin2019
+**Earthcoin** source code is available at https://github.com/Sandokaaan/Earthcoin
 
