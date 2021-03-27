@@ -110,7 +110,7 @@ public class DynamicDonationFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 String memo = getString(R.string.Donate_toThe) + chosenAddress.first;
-                PaymentItem request = new PaymentItem(new String[]{chosenAddress.second}, null, mDonationAmount, null, false, memo);
+                PaymentItem request = new PaymentItem(new String[]{chosenAddress.second}, null, mDonationAmount, null, false);
 
                 Bundle params = new Bundle();
                 params.putString("DONATION_ACCOUNT", chosenAddress.first);

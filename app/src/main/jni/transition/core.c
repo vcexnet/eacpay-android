@@ -105,8 +105,9 @@ Java_com_breadwallet_tools_security_BitcoinUrlHandler_parsePaymentRequest(JNIEnv
         (*env)->SetIntField(env, entity, jerror, 1);
         return entity;
     }
-  
-    BRTransactionSetMessage(tx, nativeRequest->details->memo, strlen(nativeRequest->details->memo) );   // copy memo into txComment
+
+    // it is set elsewhere
+    //BRTransactionSetMessage(tx, nativeRequest->details->memo, strlen(nativeRequest->details->memo) );   // copy memo into txComment
 
     uint64_t feeForTx = BRWalletFeeForTx(_wallet, tx);
     uint64_t amountToBeSent =

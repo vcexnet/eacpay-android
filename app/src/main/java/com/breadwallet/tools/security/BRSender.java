@@ -210,7 +210,7 @@ public class BRSender {
         BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(new Runnable() {
             @Override
             public void run() {
-                byte[] tmpTx = m.tryTransaction(paymentRequest.addresses[0], paymentRequest.amount, paymentRequest.comment);
+                byte[] tmpTx = m.tryTransaction(paymentRequest.addresses[0], paymentRequest.amount, paymentRequest.composedComment);
                 if (tmpTx == null) {
                     //something went wrong, failed to create tx
                     ((Activity) app).runOnUiThread(new Runnable() {

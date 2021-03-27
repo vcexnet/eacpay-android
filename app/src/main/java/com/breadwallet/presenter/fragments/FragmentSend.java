@@ -99,6 +99,8 @@ public class FragmentSend extends Fragment {
     private Button send;
     private Button donate;
     private EditText commentEdit;
+    private EditText txCommentEdit;
+    private EditText txIpfsidEdit;
     private StringBuilder amountBuilder;
     private TextView isoText;
     private TextView donate_isoText;
@@ -142,6 +144,8 @@ public class FragmentSend extends Fragment {
         send = (Button) rootView.findViewById(R.id.send_button);
         donate = (Button) rootView.findViewById(R.id.donate_button);
         commentEdit = (EditText) rootView.findViewById(R.id.comment_edit);
+        txCommentEdit = (EditText) rootView.findViewById(R.id.transition_edit);
+        txIpfsidEdit = (EditText) rootView.findViewById(R.id.ipfs_edit);
         amountEdit = (EditText) rootView.findViewById(R.id.amount_edit);
         balanceText = (TextView) rootView.findViewById(R.id.balance_text);
         feeText = (TextView) rootView.findViewById(R.id.fee_text);
@@ -427,6 +431,9 @@ public class FragmentSend extends Fragment {
                 String amountStr = amountBuilder.toString();
                 String iso = selectedIso;
                 String comment = commentEdit.getText().toString();
+                String txComment = txCommentEdit.getText().toString();
+                String txIpfsid = txIpfsidEdit.getText().toString();
+                String composedComment = (txIpfsid.length() > 0) ? (txIpfsid + "\n" + txComment) : txComment;
 
                 //get amount in satoshis from any isos
                 BigDecimal bigAmount = new BigDecimal(Utils.isNullOrEmpty(amountStr) ? "0" : amountStr);
@@ -448,7 +455,7 @@ public class FragmentSend extends Fragment {
                 }
 
                 if (allFilled) {
-                    BRSender.getInstance().sendTransaction(getContext(), new PaymentItem(new String[]{address}, null, satoshiAmount.longValue(), null, false, comment));
+                    BRSender.getInstance().sendTransaction(getContext(), new PaymentItem(new String[]{address}, null, satoshiAmount.longValue(), null, false, comment, composedComment));
                     AnalyticsManager.logCustomEvent(BRConstants._20191105_DSL);
                 }
             }
