@@ -5,7 +5,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">网站</string>
   <!-- About screen footer -->
-  <string name="About.footer">由伊欸瑟派的地球錢包團隊製作\n%1$s</string>
+  <string name="About.footer">由伊欸瑟派的地球钱包团队制作\n%1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">隐私政策</string>
   <!-- About screen reddit label -->
@@ -33,7 +33,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">错误</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">您的安卓操作系统密钥库存在问题，请联系connact@eacpay.com</string>
+  <string name="Alert.keystore.generic.android">您的安卓操作系统密钥库存在问题，请联系dev@eacpay.com</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">您的 EACPAY 加密数据最近因为您的安卓系统屏幕锁定被禁用而失效。</string>
   <!-- Keystore error title -->
