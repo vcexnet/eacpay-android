@@ -708,13 +708,20 @@ public class FragmentSend extends Fragment {
         if (obj.address != null && addressEdit != null) {
             addressEdit.setText(obj.address.trim());
         }
-        if (obj.message != null && commentEdit != null) {
-            commentEdit.setText(obj.message);
+
+        if (obj.label != null && commentEdit != null) {
+            commentEdit.setText(obj.label);
+        }
+
+        if (obj.message != null && txCommentEdit != null) {
+            txCommentEdit.setText(obj.message);
         }
         if (obj.amount != null) {
             String iso = selectedIso;
-            BigDecimal satoshiAmount = new BigDecimal(obj.amount).multiply(new BigDecimal(100000000));
-            amountBuilder = new StringBuilder(BRExchange.getAmountFromSatoshis(getActivity(), iso, satoshiAmount).toPlainString());
+            //BigDecimal satoshiAmount = new BigDecimal(obj.amount).multiply(new BigDecimal(100000000));
+            BigDecimal satoshiAmount = new BigDecimal(obj.amount);
+            //amountBuilder = new StringBuilder(BRExchange.getAmountFromSatoshis(getActivity(), iso, satoshiAmount).toPlainString());
+            amountBuilder = new StringBuilder(satoshiAmount.toString());
             updateText();
         }
     }
