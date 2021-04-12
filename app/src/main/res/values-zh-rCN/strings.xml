@@ -5,7 +5,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">网站</string>
   <!-- About screen footer -->
-  <string name="About.footer">由伊欸瑟派的地球钱包团队制作\n%1$s</string>
+  <string name="About.footer">由伊欸瑟派地球钱包团队制作\n%1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">隐私政策</string>
   <!-- About screen reddit label -->
@@ -743,7 +743,7 @@
   <string name="Confirmation.processingAndDonationTime">处理时间：这些交易将花费 %1$s 分钟来处理。</string>
   <string name="Confirmation.donateLabel">捐款金额:</string>
   <string name="Confirmation.staticAddressLabel">地址:</string>
-  <string name="Donate.word">捐</string>
+  <string name="Donate.word">捐赠</string>
   <string name="Donate.toThe">"捐赠给 "</string>
     <string name="FeeSelector.luxury">豪华</string>
     <string name="FeeSelector.luxuryMessage">尽管您要支付一定的费用，但此选项实际上可以保证您接受交易。</string>

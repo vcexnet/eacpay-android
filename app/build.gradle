@@ -29,8 +29,8 @@ android {
         applicationId = 'EACPAY.COM'
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 630
-        versionName "v2.0.3"
+        versionCode 635
+        versionName "v2.0.4"
         multiDexEnabled true
 
         // Similar to other properties in the defaultConfig block,

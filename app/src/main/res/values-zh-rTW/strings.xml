@@ -5,7 +5,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">部落格</string>
   <!-- About screen footer -->
-  <string name="About.footer">由伊欸瑟派的地球錢包團隊製作\n%1$s</string>
+  <string name="About.footer">由伊欸瑟派地球錢包團隊製作\n%1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">隱私政策</string>
   <!-- About screen reddit label -->
@@ -743,13 +743,13 @@
   <string name="Confirmation.processingAndDonationTime">處理時間：這些交易將花費 %1$s 分鐘來處理。</string>
   <string name="Confirmation.donateLabel">捐款金額：</string>
   <string name="Confirmation.staticAddressLabel">地址：</string>
-  <string name="Donate.word">捐</string>
+  <string name="Donate.word">捐贈</string>
   <string name="Donate.toThe">"捐贈給 "</string>
     <string name="FeeSelector.luxury">豪華</string>
     <string name="FeeSelector.luxuryMessage">儘管您要支付一定的費用，但此選項實際上可以保證您接受交易。</string>
     <string name="FeeSelector.luxuryTime">2.5 - 5+ 分鐘</string>
     <string name="settings">設定</string>
-  <string name="message">Message</string>
+  <string name="message">消息</string>
   <string name="ipfs">IPFS</string>
     <string name="ViewOnBlockchain">查看區塊鏈瀏覽器</string>
 </resources>

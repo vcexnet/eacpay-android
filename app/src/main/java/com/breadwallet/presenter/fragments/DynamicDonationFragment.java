@@ -214,6 +214,7 @@ public class DynamicDonationFragment extends Fragment {
         final BigDecimal total = new BigDecimal(donationAmount + feeAmount);
 
         amountVal.setText(formatResultAmount(formatLtcAmount(donation), formatIsoAmount(donation)));
+        //amountVal.setText(formatResultAmount(donation.toString(), formatIsoAmount(donation)));
         feeVal.setText(formatResultAmount(formatLtcAmount(fee), formatIsoAmount(fee)));
         totalVal.setText(formatResultAmount(formatLtcAmount(total), formatIsoAmount(total)));
 
