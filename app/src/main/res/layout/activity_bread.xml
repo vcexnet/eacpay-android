@@ -131,7 +131,8 @@
                 android:contentInsetLeft="0dp"
                 app:contentInsetLeft="0dp"
                 app:contentInsetStart="0dp"
-                tools:layout_constraintTop_creator="1"></com.breadwallet.presenter.customviews.BRSearchBar>
+                tools:layout_constraintTop_creator="1">
+            </com.breadwallet.presenter.customviews.BRSearchBar>
 
             <com.breadwallet.presenter.customviews.BRNotificationBar xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/notification_bar"
@@ -140,10 +141,11 @@
                 android:background="@color/litecoin_litewallet_blue"
                 android:contentInsetStart="0dp"
                 android:contentInsetLeft="0dp"
-                app:breadText="No internet connection found.\nCheck your connection and try again."
+                app:breadText="@string/Alert.noInternet"
                 app:contentInsetLeft="0dp"
                 app:contentInsetStart="0dp"
-                tools:layout_constraintTop_creator="1"></com.breadwallet.presenter.customviews.BRNotificationBar>
+                tools:layout_constraintTop_creator="1" >
+            </com.breadwallet.presenter.customviews.BRNotificationBar>
 
         </ViewFlipper>
 
