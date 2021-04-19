@@ -17,6 +17,7 @@ import com.breadwallet.presenter.activities.SetPinActivity;
 import com.breadwallet.presenter.activities.util.BRActivity;
 import com.breadwallet.presenter.customviews.BRText;
 import com.breadwallet.tools.animation.BRAnimator;
+import com.breadwallet.tools.manager.BRSharedPrefs;
 import com.breadwallet.tools.security.BRKeyStore;
 import com.breadwallet.tools.security.PostAuth;
 import com.breadwallet.tools.security.SmartValidator;
@@ -86,6 +87,7 @@ public class IntroActivity extends BRActivity implements Serializable {
         setListeners();
         updateBundles();
 //        SyncManager.getInstance().updateAlarms(this);
+         BRSharedPrefs.putUseFingerprint(this,false);
 
         if (!BuildConfig.DEBUG && BRKeyStore.AUTH_DURATION_SEC != 300) {
             RuntimeException ex = new RuntimeException("onCreate: AUTH_DURATION_SEC should be 300");
