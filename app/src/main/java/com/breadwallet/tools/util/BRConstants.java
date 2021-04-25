@@ -82,6 +82,7 @@ public class BRConstants {
 
     public static String SUPPORT_EMAIL = "dev@eacpay.com";
 
+
     public static final int ONE_BITCOIN = 100000000;
     public static final int HUNDRED_BITS = 10000000;
 
@@ -166,6 +167,7 @@ public class BRConstants {
     public static final String REDDIT_LINK = "https://www.reddit.com/r/earthcoin";
     public static final String WEB_LINK = "https://eacpay.com";
     public static final String TOS_LINK = "https://eacpay.com/tos";
+    public static final String BUY_EXCHANGE ="https://www.aex.cool/page/m_regist.html#/?invite_code=400735&invite_type=10";
 
     public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.LITECOIN_TESTNET ? "http://api.deveac.com:3000/transaction/" : "http://api.eacpay.com:9000/transaction/";
 

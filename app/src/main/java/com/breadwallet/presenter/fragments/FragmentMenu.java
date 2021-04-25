@@ -109,7 +109,7 @@ public class FragmentMenu extends Fragment {
             }
         }));
         //TODO: Refactor with new FAQ / Support design using on-board FAQ data
-        itemList.add(new BRMenuItem(getString(R.string.MenuButton_support), R.drawable.faq_question_white, null) {
+        itemList.add(new BRMenuItem(getString(R.string.MenuButton_support), R.drawable.faq_question_black, null) {
         });
         itemList.add(new BRMenuItem(getString(R.string.MenuButton_settings), R.drawable.ic_settings, new View.OnClickListener() {
             @Override
