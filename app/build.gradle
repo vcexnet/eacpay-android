@@ -26,10 +26,10 @@ android {
     compileSdkVersion = 29
     defaultConfig {
         testInstrumentationRunner = 'androidx.test.runner.AndroidJUnitRunner'
-        applicationId = 'EACPAY.COM'
+        applicationId = 'com.eacpay'
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 635
+        versionCode 645
         versionName "v2.0.4"
         multiDexEnabled true
 
@@ -67,7 +67,7 @@ android {
     flavorDimensions "mode"
     productFlavors {
         loaf {
-            applicationId "EACPAY.COM"
+            applicationId "com.eacpay"
             dimension "mode"
             resValue "string", "app_name", "EACPAY"
             buildConfigField "boolean", "LITECOIN_TESTNET", "false"
