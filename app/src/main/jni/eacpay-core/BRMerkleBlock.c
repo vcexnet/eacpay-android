@@ -57,7 +57,8 @@ size_t calcAuxpowSize(const uint8_t *buf, size_t off)
     int isWitness = 0;
     size_t len, in_cnt, out_cnt, wit_cnt, cnt;
     size_t initialOffset = off;
-    off += 4;       // tx_version
+    uint32_t auxTxVersion = UInt32GetLE(&buf[off]);
+    off += 4;       // tx_version    
     if (buf[off] == 0x00 && buf[off+1] == 0x01) {
         off += 2;   // witness flag
         isWitness = 1;
@@ -87,6 +88,10 @@ size_t calcAuxpowSize(const uint8_t *buf, size_t off)
         }
     }
     off += 4;       // lock time
+    if (auxTxVersion > 1) {
+        cnt = (size_t) BRVarInt(&buf[off], 9, &len);
+        off += len + cnt;        // transaction version > 1 with additional data (tx_message)
+    }
     off += 32;      // hashBlock
     cnt = (size_t)BRVarInt(&buf[off], 9, &len);
     off += len + 32*cnt + 4;  // coinbase branch + bitmask
