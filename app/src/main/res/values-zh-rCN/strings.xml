@@ -111,7 +111,7 @@
   <!-- OK button label -->
   <string name="Button.ok">好</string>
   <!-- receive button -->
-  <string name="Button.receive">收到</string>
+  <string name="Button.receive">接收</string>
   <!-- send button -->
   <string name="Button.send">发送</string>
   <!-- Settings button label -->
