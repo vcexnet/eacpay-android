@@ -62,12 +62,12 @@ public class SpendLimitActivity extends BRActivity {
         listView = findViewById(R.id.limit_list);
         listView.setFooterDividersEnabled(true);
         adapter = new LimitAdaptor(this);
-        List<Integer> items = new ArrayList<>();
-        items.add(getAmountByStep(0).intValue());
-        items.add(getAmountByStep(1).intValue());
-        items.add(getAmountByStep(2).intValue());
-        items.add(getAmountByStep(3).intValue());
-        items.add(getAmountByStep(4).intValue());
+        List<Long> items = new ArrayList<>();
+        items.add(getAmountByStep(0).longValue());
+        items.add(getAmountByStep(1).longValue());
+        items.add(getAmountByStep(2).longValue());
+        items.add(getAmountByStep(3).longValue());
+        items.add(getAmountByStep(4).longValue());
 
         adapter.addAll(items);
 
@@ -76,7 +76,7 @@ public class SpendLimitActivity extends BRActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 Timber.d("onItemClick: %s", position);
-                int limit = adapter.getItem(position);
+                long limit = adapter.getItem(position);
                 BRKeyStore.putSpendLimit(limit, app);
 
                 AuthManager.getInstance().setTotalLimit(app, BRWalletManager.getInstance().getTotalSent()
@@ -88,7 +88,7 @@ public class SpendLimitActivity extends BRActivity {
         adapter.notifyDataSetChanged();
     }
 
-    //satoshis
+    //satoshis - SANDO note: as ONE_BITCOIN is declared as 32-bit int, you need retype it to long (64-bit integer), otherwise the multiplication will overflow
     private BigDecimal getAmountByStep(int step) {
         BigDecimal result;
         switch (step) {
@@ -96,37 +96,37 @@ public class SpendLimitActivity extends BRActivity {
                 result = new BigDecimal(0);// 0 always require
                 break;
             case 1:
-                result = new BigDecimal(ONE_BITCOIN / 100);//   0.01 BTC
+                result = new BigDecimal((long)ONE_BITCOIN * 1000);//   0.01 BTC
                 break;
             case 2:
-                result = new BigDecimal(ONE_BITCOIN / 10);//   0.1 BTC
+                result = new BigDecimal((long)ONE_BITCOIN * 10000);//   0.1 BTC
                 break;
             case 3:
-                result = new BigDecimal(ONE_BITCOIN);//   1 BTC
+                result = new BigDecimal((long)ONE_BITCOIN * 100000);//   1 BTC
                 break;
             case 4:
-                result = new BigDecimal(ONE_BITCOIN * 10);//   10 BTC
+                result = new BigDecimal((long)ONE_BITCOIN * 1000000);//   10 BTC
                 break;
 
             default:
-                result = new BigDecimal(ONE_BITCOIN);//   1 BTC Default
+                result = new BigDecimal((long)ONE_BITCOIN * 100000);//   1 BTC Default
                 break;
         }
         return result;
     }
 
     private int getStepFromLimit(long limit) {
-        switch ((int) limit) {
-
+        int swLimit = (int)(limit/ONE_BITCOIN);    // SANDO note: switch command does not accept long type as the control variable, we need transaform lond to a reduced int
+        switch (swLimit) {
             case 0:
                 return 0;
-            case ONE_BITCOIN / 100:
+            case 1000:
                 return 1;
-            case ONE_BITCOIN / 10:
+            case 10000:
                 return 2;
-            case ONE_BITCOIN:
+            case 100000:
                 return 3;
-            case ONE_BITCOIN * 10:
+            case 1000000:
                 return 4;
             default:
                 return 2; //1 BTC Default
@@ -152,7 +152,7 @@ public class SpendLimitActivity extends BRActivity {
         overridePendingTransition(R.anim.enter_from_left, R.anim.exit_to_right);
     }
 
-    public class LimitAdaptor extends ArrayAdapter<Integer> {
+    public class LimitAdaptor extends ArrayAdapter<Long> {
 
         private final Context mContext;
         private final int layoutResourceId;
@@ -175,7 +175,7 @@ public class SpendLimitActivity extends BRActivity {
             // get the TextView and then set the text (item name) and tag (item ID) values
             textViewItem = convertView.findViewById(R.id.currency_item_text);
             FontManager.overrideFonts(textViewItem);
-            Integer item = getItem(position);
+            Long item = getItem(position);
             BigDecimal curAmount = BRExchange.getAmountFromSatoshis(app, BRSharedPrefs.getIso(app), new BigDecimal(item));
             BigDecimal btcAmount = BRExchange.getBitcoinForSatoshis(app, new BigDecimal(item));
             String text = String.format(item == 0 ? app.getString(R.string.TouchIdSpendingLimit) : "%s (%s)", curAmount, btcAmount);
