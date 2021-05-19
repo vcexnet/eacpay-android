@@ -752,4 +752,28 @@
   <string name="message">消息</string>
   <string name="ipfs">IPFS</string>
     <string name="ViewOnBlockchain">查看區塊鏈瀏覽器</string>
+
+  <string name="MenuButton.supportCenter">支持中心</string>
+  <string name="supportCenter.eac">EAC介紹及使用教程</string>
+  <string name="supportCenter.gainEac">如何獲得EAC</string>
+  <string name="supportCenter.buyEac">購買EAC教程</string>
+  <string name="supportCenter.transEac">提幣到EACPAY教程</string>
+  <string name="supportCenter.drawEac">挖EAC教程</string>
+  <string name="supportCenter.supportS">支持交易所</string>
+  <string name="supportCenter.supportA">支持礦池</string>
+  <string name="supportCenter.supportP">支持EACPAY的網站和應用</string>
+  <string name="txt.support">支持</string>
+  <string name="txt.tutorial">教程</string>
+  <string name="txt.introduction_and_use_of_eac">
+    地球幣（EAC）是2013年12月20日在加拿大多倫多發佈的一款基於scrypt算灋的全球性的加密貨幣，致力於永續和公平的發展。是新一代scrypt貨幣，是萊特幣的延伸。類似萊特幣-使用scrypt工作量證明機制。地球幣是一個知名度迅速在提高的革命性的獨特的數位貨幣，它的創辦人相信加密貨幣有改變世界的潜力。地球幣的吸引力顯然來自於它的行銷經驗，穩定運行歷史和廣泛認同。地球幣的底層科技已解决加密貨幣的一些早期的缺陷。
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC現時支持AUX-POW挖礦模式，也就是支持聯合挖礦，可以在挖LTC或者DOGE的同時挖EAC，需要礦池支持，如果不支持，請問詢你所在的礦池服務商。只要能挖LTC、DOGE的礦機均能挖EAC。
+  </string>
+  <string name="txt.you_can_view">
+    獲取EAC方法
+  </string>
+  <string name="txt.i_see">
+    我知道了
+  </string>
 </resources>

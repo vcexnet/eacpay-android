@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="64dp"
+    android:id="@+id/controls"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:background="?attr/colorControlHighlight"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginStart="10dp"
+            android:id="@id/exo_play"
+            style="@style/ExoMediaButton.Play"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <ImageButton
+            android:layout_marginStart="10dp"
+            android:id="@id/exo_pause"
+            style="@style/ExoMediaButton.Pause"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:id="@+id/exo_position"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           />
+
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+            android:layout_marginStart="10dp"
+            android:id="@+id/exo_progress"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:unplayed_color="@android:color/black" />
+
+        <TextView
+            android:layout_marginStart="10dp"
+            android:id="@+id/exo_duration"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageButton
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/exo_fullscreen_button"
+            style="@style/ExoMediaButton.Pause"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/exo_controls_fullscreen_enter" />
+    </LinearLayout>
+
+</FrameLayout>
+

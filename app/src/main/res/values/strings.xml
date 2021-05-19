@@ -241,7 +241,7 @@
   <!-- Menu button title -->
   <string name="MenuButton.settings">Settings</string>
   <!-- Menu button title -->
-  <string name="MenuButton.support">Support:      dev@eacpay.com</string>
+  <string name="MenuButton.support">Support Center</string>
   <!-- button label -->
   <string name="MenuViewController.createButton">Create New Wallet</string>
   <!-- Menu modal title -->
@@ -751,6 +751,30 @@
   <string name="FeeSelector.luxuryTime">2.5 - 5+ minutes</string>
   <string name="FeeSelector.luxuryMessage">This option virtually guarantees acceptance of your transaction though you are paying a premium.</string>
   <string name="settings">Settings</string>
+  <string name="support">Support Center</string>
   <string name="message">Message</string>
   <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Support center</string>
+  <string name="supportCenter.eac">Introduction and use of EAC</string>
+  <string name="supportCenter.gainEac">How to get EAC</string>
+  <string name="supportCenter.buyEac">Buy EAC tutorial</string>
+  <string name="supportCenter.transEac">Withdraw to eacpay tutorial</string>
+  <string name="supportCenter.drawEac">Mining EAC course</string>
+  <string name="supportCenter.supportS">Support exchange</string>
+  <string name="supportCenter.supportA">Support pool</string>
+  <string name="supportCenter.supportP">Websites and applocations using eacpay</string>
+  <string name="txt.support">Support</string>
+  <string name="txt.tutorial">Tutorial</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC is a global cryptocurrency based on scrypt algorithm released in Toronto, Canada on December 20, 2013, which is committed to sustainable and fair development. It is a new generation of scrypt currency and an extension of Wright currency. Similar to lightcoin  - using scrypt workload proof mechanism. Geocurrency is a revolutionary and unique digital currency with rapidly increasing popularity. Its founders believe that cryptocurrency has the potential to change the world. The attraction of earth coin obviously comes from its marketing experience, stable operation history and wide recognition. The underlying technology of earth currency has solved some early defects of cryptocurrency.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC currently supports the aux-pow mining mode, that is, it supports joint mining. It can mining EAC while mining LTC or Doge. It needs the support of pool. If it doese not support it, please ask your pool service provider. As long as the mining machine that can mining LTC and Doge can mining EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Get EAC
+  </string>
+  <string name="txt.i_see">
+    I see
+  </string>
 </resources>

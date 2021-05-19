@@ -70,5 +70,10 @@
     <item name="litecoin_litewallet_orange" type="color">#FE5F55</item>
     <item name="litecoin_litewallet_green" type="color">#179E27</item>
     <color name="white_30_alpha">#b3ffffff</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
 
 </resources>

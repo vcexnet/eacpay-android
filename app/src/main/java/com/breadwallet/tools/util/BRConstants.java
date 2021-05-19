@@ -10,32 +10,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.math.RoundingMode;
 import java.util.concurrent.TimeUnit;
-
-/**
- * BreadWallet
- * <p/>
- * Created by Mihail Gutan <mihail@breadwallet.com> on 2/16/16.
- * Copyright (c) 2016 breadwallet LLC
- * <p/>
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * <p/>
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- * <p/>
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
-
 public class BRConstants {
 
     /**
@@ -150,9 +124,9 @@ public class BRConstants {
     public static final String fingerprintSpendingLimit = "fingerprint-spending-limit";
     public static final String transactionDetails = "transaction-details";
     //    public static final String manageWallet = "manage-wallet";
-    public static final String receive = "receive-litecoin";
+    public static final String receive = "receive-earthcoin";
     public static final String requestAmount = "request-amount";
-    public static final String send = "send-litecoin";
+    public static final String send = "send-earthcoin";
     public static final String walletDisabled = "wallet-disabled";
     public static final String resetPinWithPaperKey = "reset-pin-paper-key";
     public static final String setPin = "set-pin";
@@ -167,7 +141,6 @@ public class BRConstants {
     public static final String REDDIT_LINK = "https://www.reddit.com/r/earthcoin";
     public static final String WEB_LINK = "https://eacpay.com";
     public static final String TOS_LINK = "https://eacpay.com/tos";
-    public static final String BUY_EXCHANGE ="https://www.aex.cool/page/m_regist.html#/?invite_code=400735&invite_type=10";
 
     public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.LITECOIN_TESTNET ? "http://api.deveac.com:3000/transaction/" : "http://api.eacpay.com:9000/transaction/";
 

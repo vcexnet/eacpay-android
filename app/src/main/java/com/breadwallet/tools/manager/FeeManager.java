@@ -6,13 +6,6 @@ import com.breadwallet.presenter.entities.Fee;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
-/**
- * Litewallet
- * Created by Mohamed Barry on 3/10/20
- * email: mosadialiou@gmail.com
- * Copyright © 2020 Litecoin Foundation. All rights reserved.
- */
 public final class FeeManager {
 
     // this is the default that matches the mobile-api if the server is unavailable

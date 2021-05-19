@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_intro_set_pit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/extra_light_blue_background"
+    tools:context="com.breadwallet.presenter.activities.SetPinActivity">
+
+    <com.breadwallet.presenter.customviews.BRText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/bread_margin"
+        android:text="@string/MenuButton.supportCenter"
+        android:textColor="@color/almost_black"
+        android:textSize="@dimen/header"
+        app:customTFont="BarlowSemiCondensed-Bold.ttf"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColor="@color/light_gray"
+            android:gravity="center_vertical|left"
+            android:text="@string/txt.tutorial"></TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.eac"></TextView>
+
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.gainEac"></TextView>
+
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.buyEac"></TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.transEac"></TextView>
+
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.drawEac"></TextView>
+
+
+        <TextView
+            android:textSize="18sp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/light_gray"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/txt.support"></TextView>
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.supportS"></TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.supportA"></TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.supportP"></TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv9"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="Email：dev@eacpay.com"></TextView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

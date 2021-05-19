@@ -3,6 +3,7 @@ package com.breadwallet.presenter.activities.settings;
 import android.annotation.SuppressLint;
 import android.content.pm.ApplicationInfo;
 import android.os.Bundle;
+import android.util.Log;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
@@ -142,6 +143,7 @@ public class WebViewActivity extends BRActivity {
     }
 
     private boolean setupServerMode(String url) {
+        Log.i("WebViewActivity", "setupServerMode: "+url);
         if (url.equalsIgnoreCase(HTTPServer.URL_BUY)) {
             HTTPServer.mode = HTTPServer.ServerMode.BUY;
         } else if (url.equalsIgnoreCase(HTTPServer.URL_SUPPORT)) {

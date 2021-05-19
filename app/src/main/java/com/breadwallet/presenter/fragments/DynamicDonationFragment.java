@@ -28,13 +28,6 @@ import com.breadwallet.tools.util.BRExchange;
 import com.breadwallet.wallet.BRWalletManager;
 
 import java.math.BigDecimal;
-
-/**
- * Litewallet
- * Created by Mohamed Barry on 3/2/20
- * email: mosadialiou@gmail.com
- * Copyright © 2020 Litecoin Foundation. All rights reserved.
- */
 public class DynamicDonationFragment extends Fragment {
 
     static final long BALANCE_STEP = 1_000_000;
