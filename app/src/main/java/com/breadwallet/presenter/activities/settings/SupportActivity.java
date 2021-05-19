@@ -111,8 +111,8 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
                 intent = new Intent(this,
                         WebViewActivity.class);
                 intent.putExtra("url", isZh ?
-                        "https://vcexnet.github.io/img/exchange.html"
-                        : "https://eacpay.com/sc/exchange.html"
+                        "https://eacpay.com/sc/exchange.html"
+                        : "https://vcexnet.github.io/img/exchange.html"
                 );
                 intent.putExtra("title", getString(R.string.supportCenter_supportS));
                 break;
@@ -121,8 +121,8 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
                 intent = new Intent(this,
                         WebViewActivity.class);
                 intent.putExtra("url", isZh ?
-                        "https://vcexnet.github.io/img/pool.html" :
                         "https://eacpay.com/sc/pool.html"
+                        : "https://vcexnet.github.io/img/pool.html"
                 );
                 intent.putExtra("title", getString(R.string.supportCenter_supportA));
                 break;
@@ -131,8 +131,8 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
                 intent = new Intent(this,
                         WebViewActivity.class);
                 intent.putExtra("url", isZh ?
-                        "https://vcexnet.github.io/img/support.html" :
                         "https://eacpay.com/sc/support.html"
+                        : "https://vcexnet.github.io/img/support.html"
                 );
                 intent.putExtra("title", getString(R.string.supportCenter_supportP));
                 break;
