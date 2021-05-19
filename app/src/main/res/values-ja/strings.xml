@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">このオプションは、プレミアムを支払っていますが、トランザクションの受け入れを事実上保証します。</string>
   <string name="FeeSelector.luxuryTime">2.5～5+分</string>
   <string name="settings">設定</string>
+  <string name="message">メッセージ</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">サポートセンター</string>
+  <string name="supportCenter.eac">EAC紹介及びEACPAY使用教程</string>
+  <string name="supportCenter.gainEac">どうやってEACを獲得しますか</string>
+  <string name="supportCenter.buyEac">EAC教程の購入</string>
+  <string name="supportCenter.transEac">お札を持ってEACPAY教程に行きます。</string>
+  <string name="supportCenter.drawEac">EAC教程を掘る</string>
+  <string name="supportCenter.supportS">取引所をサポートする</string>
+  <string name="supportCenter.supportA">鉱床をサポートする</string>
+  <string name="supportCenter.supportP">EACPAYのウェブサイトとアプリケーションをサポートします。</string>
+  <string name="txt.support">サポート</string>
+  <string name="txt.tutorial">教程</string>
+  <string name="txt.introduction_and_use_of_eac">
+    地球ドル（EAC）は2013年12月20日にカナダのトロントで発表されたSryptアルゴリズムに基づくグローバルな暗号化通貨で、持続可能で公平な発展に努めています。次世代のscrypt貨幣で、ライト元の延長です。ライトコインのようです。scryptを使って仕事量を証明する仕組みです。地球ドルは急速に知名度を上げている革命的な独特のデジタル通貨で、その創設者は暗号化された通貨が世界を変える可能性があると信じています。地球ドルの魅力は明らかにそのマーケティング経験から来ています。地球貨幣の下部技術は暗号化された貨幣のいくつかの初期の欠陥を解決しました。
+  </string>
+  <string name="txt.mining_eac_course">
+    EACは現在AUX-OWの採掘モードをサポートしています。つまり共同で採掘することをサポートしています。LTCやDOGEを掘ると同時にEACを掘ることができます。鉱山プールのサポートが必要です。サポートしていないなら、あなたのいる鉱山プールのサービス業者に聞いてください。LTCやDOGEの鉱床を掘りさえすれば、EACは掘れる。
+  </string>
+  <string name="txt.you_can_view">
+    EACメソッドを取得
+  </string>
+  <string name="txt.i_see">
+    分かりました
+  </string>
 </resources>

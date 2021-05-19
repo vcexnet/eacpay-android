@@ -754,7 +754,7 @@
     <string name="ViewOnBlockchain">查看區塊鏈瀏覽器</string>
 
   <string name="MenuButton.supportCenter">支持中心</string>
-  <string name="supportCenter.eac">EAC介紹及使用教程</string>
+  <string name="supportCenter.eac">EAC介紹及EACPAY使用教程</string>
   <string name="supportCenter.gainEac">如何獲得EAC</string>
   <string name="supportCenter.buyEac">購買EAC教程</string>
   <string name="supportCenter.transEac">提幣到EACPAY教程</string>

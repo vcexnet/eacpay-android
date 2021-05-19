@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Detta alternativ garanterar praktiskt taget accept av din transaktion även om du betalar en premie.</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ minuter</string>
   <string name="settings">Inställningar</string>
+  <string name="message">Meddelande</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Stödcentrum</string>
+  <string name="supportCenter.eac">Inledning EAC och användning av EACPAY</string>
+  <string name="supportCenter.gainEac">Hur man får EAC</string>
+  <string name="supportCenter.buyEac">Köp EAC-handledning</string>
+  <string name="supportCenter.transEac">Dra tillbaka till eacpay handledning</string>
+  <string name="supportCenter.drawEac">Kurs vid gruvdrift</string>
+  <string name="supportCenter.supportS">Utbyte av stöd</string>
+  <string name="supportCenter.supportA">Stödgrupp</string>
+  <string name="supportCenter.supportP">Webbplatser och ansökningar med hjälp av varje lön</string>
+  <string name="txt.support">Stöd</string>
+  <string name="txt.tutorial">Handledning</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC är en global kryptovaluta baserad på kryptisk algoritm i Toronto, Kanada i december 20, 2013, som är engagerad i hållbar och rättvis utveckling.Det är en ny generation av scryptvalutan och en förlängning av Wrights valuta.Likadant med ljuskronan med hjälp av scrypt- arbetsbelastningssäker mekanism.Geovaluta är en revolutionerande och unik digital valuta med snabbt ökande popularitet.Dess grundare tror att kryptovalutan kan förändra världen.Jordmyntets attraktion kommer uppenbarligen från dess marknadsföringserfarenhet, stabil verksamhetshistoria och brett erkännande.Den underliggande tekniken i jordens valuta har löst några tidiga defekter i kryptovalutan.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC stöder för närvarande utvinningsmetoden aux-pow, dvs. den stöder gemensam gruvdrift.Den kan utvinna EAC under utvinning av LTC eller Doge.Den behöver stöd från poolen.Om den inte stöder den, fråga er poolleverantör.Så länge gruvmaskinen som kan utvinna LTC och Doge kan utvinna EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Hämta EAC
+  </string>
+  <string name="txt.i_see">
+    Jag har den!
+  </string>
 </resources>

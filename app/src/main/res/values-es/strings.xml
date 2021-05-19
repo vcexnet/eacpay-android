@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Esta opción prácticamente garantiza la aceptación de su transacción aunque esté pagando una prima.</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ minutos</string>
   <string name="settings">Configuración</string>
+  <string name="message">Mensaje</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Centro de Apoyo</string>
+  <string name="supportCenter.eac">Introducción EAC y uso de EACPAY</string>
+  <string name="supportCenter.gainEac">Cómo obtener EAC</string>
+  <string name="supportCenter.buyEac">Comprar tutorial de EAC</string>
+  <string name="supportCenter.transEac">Retirar al tutorial de eacpay</string>
+  <string name="supportCenter.drawEac">Curso minero EAC</string>
+  <string name="supportCenter.supportS">Intercambio de soporte</string>
+  <string name="supportCenter.supportA">Grupo de apoyo</string>
+  <string name="supportCenter.supportP">Sitios web y aplicaciones que utilizan eacpay</string>
+  <string name="txt.support">Apoyo</string>
+  <string name="txt.tutorial">Tutorial</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC es una criptomoneda global basada en el algoritmo scrypt lanzada en Toronto, Canadá el 20 de diciembre de 2013, que está comprometida con el desarrollo sostenible y justo. Es una nueva generación de moneda scrypt y una extensión de la moneda Wright. Similar a Lightcoin: utiliza el mecanismo de prueba de carga de trabajo de scrypt. La geocurrency es una moneda digital revolucionaria y única con una popularidad cada vez mayor. Sus fundadores creen que la criptomoneda tiene el potencial de cambiar el mundo. La atracción de la moneda terrestre proviene obviamente de su experiencia en marketing, historial de operaciones estable y amplio reconocimiento. La tecnología subyacente de la moneda terrestre ha resuelto algunos defectos iniciales de la criptomoneda.
+  </string>
+  <string name="txt.mining_eac_course">
+    Actualmente, EAC admite el modo de minería aux-pow, es decir, admite la minería conjunta. Puede extraer EAC mientras extrae LTC o Doge. Necesita el apoyo de pool. Si no lo admite, consulte con su proveedor de servicios de piscina. Siempre que la máquina minera que puede extraer LTC y Doge pueda extraer EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Obtenga EAC
+  </string>
+  <string name="txt.i_see">
+    veo
+  </string>
 </resources>

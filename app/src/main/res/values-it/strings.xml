@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">"Questa opzione garantisce virtualmente l'accettazione della tua transazione anche se stai pagando un premio."</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ minuti</string>
   <string name="settings">Impostazioni</string>
+  <string name="message">Messaggio</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Centro di supporto</string>
+  <string name="supportCenter.eac">Introduzione EAC e utilizzo di EACPAY</string>
+  <string name="supportCenter.gainEac">Come ottenere EAC</string>
+  <string name="supportCenter.buyEac">Acquista il tutorial EAC</string>
+  <string name="supportCenter.transEac">Ritira al tutorial eacpay</string>
+  <string name="supportCenter.drawEac">Corso EAC minerario</string>
+  <string name="supportCenter.supportS">Scambio di supporto</string>
+  <string name="supportCenter.supportA">Piscina di supporto</string>
+  <string name="supportCenter.supportP">Siti web e applicazioni che utilizzano eacpay</string>
+  <string name="txt.support">Supporto</string>
+  <string name="txt.tutorial">Tutorial</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC è una criptovaluta globale basata su algoritmo scrypt rilasciato a Toronto, in Canada, il 20 dicembre 2013, che si impegna per uno sviluppo sostenibile ed equo. È una nuova generazione di valuta scrypt e un"estensione della valuta Wright. Simile a lightcoin: utilizza il meccanismo di prova del carico di lavoro di scrypt. La valuta geografica è una valuta digitale rivoluzionaria e unica con una popolarità in rapida crescita. I suoi fondatori credono che la criptovaluta abbia il potenziale per cambiare il mondo. L'attrazione della moneta terrestre deriva ovviamente dalla sua esperienza di marketing, dalla sua storia operativa stabile e dall'ampio riconoscimento. La tecnologia alla base della valuta terrestre ha risolto alcuni dei primi difetti della criptovaluta.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC attualmente supporta la modalità di mining aux-pow, ovvero supporta il mining congiunto. Può eseguire il mining di EAC durante il mining di LTC o Doge. Necessita del supporto della piscina. Se non lo supporta, chiedi al tuo fornitore di servizi di piscina. Finché la macchina mineraria in grado di estrarre LTC e Doge può estrarre EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Ottieni EAC
+  </string>
+  <string name="txt.i_see">
+    Vedo
+  </string>
 </resources>

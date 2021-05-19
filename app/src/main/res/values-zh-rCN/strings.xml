@@ -750,11 +750,10 @@
     <string name="FeeSelector.luxuryTime">2.5 - 5+ 分钟</string>
     <string name="ViewOnBlockchain">查看区块链浏览器</string>
   <string name="settings">设置</string>
-    <string name="message">消息</string>
+  <string name="message">消息</string>
   <string name="ipfs">IPFS</string>
-
   <string name="MenuButton.supportCenter">支持中心</string>
-  <string name="supportCenter.eac">EAC介绍及使用教程</string>
+  <string name="supportCenter.eac">EAC介绍及EACPAY使用教程</string>
   <string name="supportCenter.gainEac">如何获得EAC</string>
   <string name="supportCenter.buyEac">购买EAC教程</string>
   <string name="supportCenter.transEac">提币到EACPAY教程</string>

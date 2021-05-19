@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Denne mulighed garanterer næsten accept af din transaktion, selvom du betaler en præmie.</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ minutter</string>
   <string name="settings">Indstilling</string>
+  <string name="message">Brev</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Support center</string>
+  <string name="supportCenter.eac">Introduktion EAC og brug af EACPAY</string>
+  <string name="supportCenter.gainEac">Sådan får du EAC</string>
+  <string name="supportCenter.buyEac">Køb EAC tutorial</string>
+  <string name="supportCenter.transEac">Træk dig tilbage til eacpay tutorial</string>
+  <string name="supportCenter.drawEac">Minedrift EAC kursus</string>
+  <string name="supportCenter.supportS">Support udveksling</string>
+  <string name="supportCenter.supportA">Support pool</string>
+  <string name="supportCenter.supportP">Hjemmesider og applikationer, der bruger eacpay</string>
+  <string name="txt.support">Support</string>
+  <string name="txt.tutorial">Tutorial</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC er en global kryptokurrency baseret på scryptalgoritme frigivet i Toronto, Canada den 20. december 2013, som er forpligtet til bæredygtig og retfærdig udvikling. Det er en ny generation af scryptvaluta og en udvidelse af Wright-valuta. Svarende til lightcoin - ved hjælp af scrypt workload proof mekanisme. Geocurrency er en revolutionerende og unik digital valuta med hurtigt stigende popularitet. Dens grundlæggere mener, at kryptokurrency har potentialet til at ændre verden. Tiltrækningen af jordmønter kommer naturligvis fra dens markedsføringserfaring, stabil driftshistorie og bred anerkendelse. Den underliggende teknologi i jordvaluta har løst nogle tidlige mangler ved kryptovaluta.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC understøtter i øjeblikket aux-pow-minedriftstilstand, det vil sige det understøtter fælles minedrift. Det kan minedrift EAC under minedrift LTC eller Doge. Det har brug for støtte fra poolen. Spørg din pooltjenesteudbyder, hvis det ikke understøtter det. Så længe minedrift, der kan udvinde LTC og Doge, kan udvinde EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Få EAC
+  </string>
+  <string name="txt.i_see">
+    Jeg ser
+  </string>
 </resources>

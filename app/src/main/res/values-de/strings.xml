@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Diese Option garantiert praktisch die Annahme Ihrer Transaktion, obwohl Sie eine Prämie zahlen.</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ Minuten</string>
   <string name="settings">Einstellungen</string>
+  <string name="message">Botschaft</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Hilfecenter</string>
+  <string name="supportCenter.eac">Einführung EAC und Verwendung von EACPAY</string>
+  <string name="supportCenter.gainEac">Wie bekomme ich EAC</string>
+  <string name="supportCenter.buyEac">Kaufen Sie das EAC-Tutorial</string>
+  <string name="supportCenter.transEac">Ziehen Sie sich zurück, um das Tutorial zu bezahlen</string>
+  <string name="supportCenter.drawEac">Bergbau-EAC-Kurs</string>
+  <string name="supportCenter.supportS">Support-Austausch</string>
+  <string name="supportCenter.supportA">Support pool</string>
+  <string name="supportCenter.supportP">Websites und Anwendungen mit eacpay</string>
+  <string name="txt.support">Unterstützung</string>
+  <string name="txt.tutorial">Lernprogramm</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC ist eine globale Kryptowährung, die auf dem am 20. Dezember 2013 in Toronto, Kanada, veröffentlichten Verschlüsselungsalgorithmus basiert und sich für eine nachhaltige und faire Entwicklung einsetzt. Es ist eine neue Generation von Verschlüsselungswährungen und eine Erweiterung der Wright-Währung. Ähnlich wie bei Lightcoin - mit einem Mechanismus zum Schutz vor Verschlüsselung. Geowährung ist eine revolutionäre und einzigartige digitale Währung mit schnell wachsender Beliebtheit. Die Gründer glauben, dass Kryptowährung das Potenzial hat, die Welt zu verändern. Die Anziehungskraft der Erdmünze beruht offensichtlich auf ihrer Marketingerfahrung, ihrer stabilen Betriebsgeschichte und ihrer breiten Anerkennung. Die zugrunde liegende Technologie der Erdwährung hat einige frühe Mängel der Kryptowährung behoben.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC unterstützt derzeit den Aux-Pow-Mining-Modus, dh es unterstützt das Joint Mining. Es kann EAC abbauen, während LTC oder Doge abgebaut werden. Es braucht die Unterstützung des Pools. Wenn dies nicht der Fall ist, wenden Sie sich bitte an Ihren Pool-Dienstleister. Solange die Mining-Maschine, die LTC und Doge abbauen kann, EAC abbauen kann.
+  </string>
+  <string name="txt.you_can_view">
+    Holen Sie sich EAC
+  </string>
+  <string name="txt.i_see">
+   Ich verstehe
+  </string>
 </resources>

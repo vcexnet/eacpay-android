@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">이 옵션은 귀하가 보험료를 지불하더라도 사실상 거래 수락을 보장합니다.</string>
   <string name="FeeSelector.luxuryTime">2.5~5+분</string>
   <string name="settings">설치</string>
+  <string name="message">소식.</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">지원 센터</string>
+  <string name="supportCenter.eac">EAC 소개 및 EACPAY 사용 교정</string>
+  <string name="supportCenter.gainEac">EAC 획득 방법</string>
+  <string name="supportCenter.buyEac">EAC 튜 토리 얼 구 매</string>
+  <string name="supportCenter.transEac">EACPAY 튜 토리 얼 로 돈 을 인출 하 세 요.</string>
+  <string name="supportCenter.drawEac">EAC 튜 토리 얼 발굴</string>
+  <string name="supportCenter.supportS">지원 거래소</string>
+  <string name="supportCenter.supportA">지지 광 못</string>
+  <string name="supportCenter.supportP">EACPAY 를 지원 하 는 사이트 와 앱</string>
+  <string name="txt.support">지지 하 다.</string>
+  <string name="txt.tutorial">튜 토리 얼</string>
+  <string name="txt.introduction_and_use_of_eac">
+    지구 화폐 (EAC) 는 2013 년 12 월 20 일 캐나다 토론 토 에서 발표 한 스 크 립 트 알고리즘 을 바탕 으로 하 는 전 세계 적 인 암호 화폐 로 지속 가능 하고 공평 한 발전 에 힘 쓰 고 있다.차세 대 스 크 립 트 화폐 로 라이트 코 인의 연장 입 니 다.라이트 코 인 같은 - 스 크 립 트 작업량 증명 시스템 사용.지구 화 폐 는 인지도 가 급속히 높 아 지고 있 는 혁신 적 이 고 독특한 디지털 화폐 로 서 설립자 들 은 암호 화 화폐 가 세 계 를 변화 시 킬 잠재력 이 있다 고 믿는다.지구 화폐의 흡인력 은 그의 마 케 팅 경험 에서 비롯 되 고 안정 적 인 운행 역사 와 광범 위 한 인정 에서 비롯 된다.지구 화폐의 바 텀 기술 은 암호 화폐의 초기 적 결함 을 해결 했다.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC 는 현재 AUX - POW 채굴 모델 을 지원 하고 있 습 니 다. 즉, 공동 채굴 을 지원 하 는 것 입 니 다. LTC 나 DOGE 를 발굴 하 는 동시에 EAC 를 발굴 할 수 있 습 니 다. 광 지 를 지원 하지 않 으 면 자신 이 있 는 광 지 서비스 업 체 에 문의 하 십시오.LTC, DOGE 를 캘 수 있 는 광산 기 는 모두 EAC 를 캘 수 있다.
+  </string>
+  <string name="txt.you_can_view">
+    EAC 획득 방법
+  </string>
+  <string name="txt.i_see">
+    알 겠 습 니 다.
+  </string>
 </resources>

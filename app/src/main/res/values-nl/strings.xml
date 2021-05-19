@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Deze optie garandeert vrijwel acceptatie van uw transactie, hoewel u een premie betaalt.</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ minuten</string>
   <string name="settings">Instellingen</string>
+  <string name="message">Bericht</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Ondersteunende centrum</string>
+  <string name="supportCenter.eac">Inleiding EAC en gebruik van EACPAY</string>
+  <string name="supportCenter.gainEac">Hoe EAC te krijgen</string>
+  <string name="supportCenter.buyEac">Koop EAC tutorial</string>
+  <string name="supportCenter.transEac">Terugtrekken naar eacpay tutorial</string>
+  <string name="supportCenter.drawEac">Cursus EAC mijnbouw</string>
+  <string name="supportCenter.supportS">Uitwisseling van ondersteuning</string>
+  <string name="supportCenter.supportA">Ondersteunende pool</string>
+  <string name="supportCenter.supportP">Websites en applicaties met behulp van eacpay</string>
+  <string name="txt.support">Ondersteuning</string>
+  <string name="txt.tutorial">Tutorial</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC is een wereldwijde cryptocurrency gebaseerd op scrypt algoritme uitgebracht in Toronto, Canada op december 20, 2013, die is toegewijd aan duurzame en eerlijke ontwikkeling.Het is een nieuwe generatie van script valuta en een uitbreiding van Wright valuta.Vergelijkbaar met lightcoin --met behulp van SCrypt workload proof mechanisme.Geovaluta is een revolutionaire en unieke digitale munt met een snel toenemende populariteit.De oprichters denken dat cryptocurrency de mogelijkheid heeft om de wereld te veranderen.De aantrekkingskracht van aardemunt komt duidelijk voort uit haar marketingervaring, stabiele werkingsgeschiedenis en brede erkenning.De onderliggende technologie van de aardevaluta heeft een aantal vroege defecten van cryptografie opgelost.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC ondersteunt momenteel de aux-pow mijnbouw, dat wil zeggen, het ondersteunt gezamenlijke mijnbouw.Het kan EAC mijnbouw tijdens de mijnbouw LTC of Doge.Het heeft de steun van pool nodig.Als het niet ondersteunt, vraag dan uw pool service provider.Zolang de mijnbouw machine die LTC en Doge kan mijnbouw EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Krijg EAC
+  </string>
+  <string name="txt.i_see">
+    Ik begrijp het
+  </string>
 </resources>

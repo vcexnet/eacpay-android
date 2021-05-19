@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Essa opção praticamente garante a aceitação de sua transação, embora você esteja pagando um prêmio.</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ minutos</string>
   <string name="settings">Configurações</string>
+  <string name="message">Mensagem</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Centro de apoio</string>
+  <string name="supportCenter.eac">Introdução EAC e utilização do EACPAY</string>
+  <string name="supportCenter.gainEac">Como obter EAC</string>
+  <string name="supportCenter.buyEac">Comprar tutorial EAC</string>
+  <string name="supportCenter.transEac">Cash out to eacpay tutorial</string>
+  <string name="supportCenter.drawEac">Curso de mineração EAC</string>
+  <string name="supportCenter.supportS">Intercâmbio de apoio</string>
+  <string name="supportCenter.supportA">Grupo de apoio</string>
+  <string name="supportCenter.supportP">Sítios Web e aplicações que suportam cadA pagamento</string>
+  <string name="txt.support">Apoio</string>
+  <string name="txt.tutorial">Tutorial</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC é um algoritmo de criptografia global Baseado no scrypt lançado EM Toronto, Canadá EM dezembro 20, 2013, que está comprometido com o Desenvolvimento sustentável e justo.É UMA Nova geração de moedas de críppulo e UMA extensão Da moeda Wright.Similar Ao mecanismo de Prova de carga de trabalho de críppulo.A Geocurrency é UMA moeda digital revolucionária e única, com popularidade cadA Vez maior, e OS seus fundadores acreditam que a criptociedade TEM potencial para mudar o mundo.A atração Da moeda terrestre, obviamente, VEM de SUA experiência de marketing, história de operação estável e amplo reconhecimento.A tecnologia subjacente Da moeda terrestre resolveu alguns defeitos iniciais Da criptociedade.
+  </string>
+  <string name="txt.mining_eac_course">
+    O EAC suporta atualmente o modo de mineração de aux-pow, ou seja, suporta a mineração conjunta. Ele Pode cavar EAC enquanto cava LTC ou Doge. Ele Precisa do suporte do minério. Se não o suporta, por favor, pergunte Ao SEU fornecedor de serviços de piscina de minério.Contanto que a máquina de mineração que Pode cavar LTC e Doge Pode cavar EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Obter EAC
+  </string>
+  <string name="txt.i_see">
+    Eu consegui!
+  </string>
 </resources>

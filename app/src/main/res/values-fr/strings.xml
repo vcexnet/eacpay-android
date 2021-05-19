@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Cette option garantit pratiquement l\'acceptation de votre transaction même si vous payez une prime.</string>
   <string name="FeeSelector.luxuryTime">2.5 à 5+ minutes</string>
   <string name="settings">Paramètres</string>
+  <string name="message">Un message</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Centre de soutien</string>
+  <string name="supportCenter.eac">Introduction EAC et utilisation d"EACPAY</string>
+  <string name="supportCenter.gainEac">Comment obtenir EAC</string>
+  <string name="supportCenter.buyEac">Acheter le didacticiel EAC</string>
+  <string name="supportCenter.transEac">Retrait vers le tutoriel eacpay</string>
+  <string name="supportCenter.drawEac">Cours Mining EAC</string>
+  <string name="supportCenter.supportS">Échange de soutien</string>
+  <string name="supportCenter.supportA">Pool d"assistance</string>
+  <string name="supportCenter.supportP">Sites Web et applications utilisant eacpay</string>
+  <string name="txt.support">Support</string>
+  <string name="txt.tutorial">Didacticiel</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC est une crypto-monnaie mondiale basée sur un algorithme de scrypt publié à Toronto, au Canada, le 20 décembre 2013, qui s"engage pour un développement durable et équitable. C'est une nouvelle génération de monnaie scrypt et une extension de la monnaie Wright. Similaire à lightcoin - utilisant un mécanisme de preuve de charge de travail scrypt. La géo-monnaie est une monnaie numérique révolutionnaire et unique dont la popularité augmente rapidement. Ses fondateurs estiment que la crypto-monnaie a le potentiel de changer le monde. L'attrait de la pièce de monnaie terrestre vient évidemment de son expérience en marketing, de son historique de fonctionnement stable et de sa large reconnaissance. La technologie sous-jacente de la monnaie terrestre a résolu certains défauts précoces de la crypto-monnaie.
+  </string>
+  <string name="txt.mining_eac_course">
+    EAC prend actuellement en charge le mode d"extraction aux-pow, c'est-à-dire qu'il prend en charge l'extraction conjointe. Il peut extraire EAC tout en exploitant LTC ou Doge. Il a besoin du support de la piscine. S'il ne le prend pas en charge, adressez-vous à votre fournisseur de services de piscine. Tant que la machine minière qui peut extraire LTC et Doge peut extraire EAC.
+  </string>
+  <string name="txt.you_can_view">
+    Obtenez EAC
+  </string>
+  <string name="txt.i_see">
+    je vois
+  </string>
 </resources>

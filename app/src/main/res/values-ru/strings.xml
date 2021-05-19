@@ -759,4 +759,29 @@
   <string name="FeeSelector.luxuryMessage">Эта опция фактически гарантирует принятие вашей транзакции, хотя вы платите премию.</string>
   <string name="FeeSelector.luxuryTime">2.5 - 5+ минут</string>
   <string name="settings">Настройки</string>
+  <string name="message">сведения</string>
+  <string name="ipfs">IPFS</string>
+  <string name="MenuButton.supportCenter">Центр поддержки</string>
+  <string name="supportCenter.eac">профиль EAC и использование EACPAY</string>
+  <string name="supportCenter.gainEac">Как получить EAC</string>
+  <string name="supportCenter.buyEac">купить курс EAC</string>
+  <string name="supportCenter.transEac">выход из eacpay курса</string>
+  <string name="supportCenter.drawEac">курс горных EAC</string>
+  <string name="supportCenter.supportS">поддерживающий обмен</string>
+  <string name="supportCenter.supportA">поддерживающий пруд</string>
+  <string name="supportCenter.supportP">использовать eacpay для сайта и приложений</string>
+  <string name="txt.support">поддерживать</string>
+  <string name="txt.tutorial">консультационный</string>
+  <string name="txt.introduction_and_use_of_eac">
+    EAC представляет собой глобальную криптографическую валюту, основанную на алгоритме Scrypt, опубликованном 20 декабря 2013 года в Торонто, Канада, и направленную на обеспечение устойчивого и справедливого развития.Это новая валюта, это продолжение денег Райта.Аналогично lightcoin - используйте механизм подтверждения загрузки script.географическая валюта - это революционная и уникальная цифровая валюта, и ее популярность быстро растет.Основатели считают, что зашифрованные валюты могут изменить мир.привлекательность земных монет явно вытекает из их маркетингового опыта, стабильной истории эксплуатации и широкого признания.нижняя технология валюты земли устранила некоторые ранние недостатки зашифрованной валюты.
+  </string>
+  <string name="txt.mining_eac_course">
+    В настоящее время EAC поддерживает модель эксгумации aux - pow, т.е.Он может копать в LTC или Doge одновременно и копать EAC.Ему нужна поддержка бассейна.если это не поддерживается, спросите у вашего провайдера бассейна.только добыть LTC и Doge, чтобы добыть EAC.
+  </string>
+  <string name="txt.you_can_view">
+    получение EAC
+  </string>
+  <string name="txt.i_see">
+    Понятно
+  </string>
 </resources>
