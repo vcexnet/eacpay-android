@@ -180,7 +180,7 @@ public class SettingsActivity extends BRActivity {
             }
         }, false));
 
-        items.add(new BRSettingsItem("", "", null, true));
+        //items.add(new BRSettingsItem("", "", null, true));
 
         items.add(new BRSettingsItem(getString(R.string.Settings_shareData), "", new View.OnClickListener() {
             @Override
@@ -221,7 +221,7 @@ public class SettingsActivity extends BRActivity {
             }
         }, false));
 
-        items.add(new BRSettingsItem("", "", null, true)); //just for a blank space
+        //items.add(new BRSettingsItem("", "", null, true)); //just for a blank space
 
     }
 

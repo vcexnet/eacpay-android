@@ -109,7 +109,7 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
             case R.id.tv6:
                 //support exchanges
                 intent = new Intent(this,
-                        WebViewActivity.class);
+                        CusWebActivity.class);
                 intent.putExtra("url", isZh ?
                         "https://eacpay.com/sc/exchange.html"
                         : "https://vcexnet.github.io/img/exchange.html"
@@ -119,7 +119,7 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
             case R.id.tv7:
                 //support pool
                 intent = new Intent(this,
-                        WebViewActivity.class);
+                        CusWebActivity.class);
                 intent.putExtra("url", isZh ?
                         "https://eacpay.com/sc/pool.html"
                         : "https://vcexnet.github.io/img/pool.html"
@@ -129,7 +129,7 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
             case R.id.tv8:
                 //support website and app
                 intent = new Intent(this,
-                        WebViewActivity.class);
+                        CusWebActivity.class);
                 intent.putExtra("url", isZh ?
                         "https://eacpay.com/sc/support.html"
                         : "https://vcexnet.github.io/img/support.html"
