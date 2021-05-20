@@ -784,4 +784,6 @@
   <string name="txt.i_see">
     알 겠 습 니 다.
   </string>
+  <string name="txt.pick_photo">사진 을 고르다</string>
+  <string name="txt.unknown_qrcode">알 수 없 는 QRcode</string>
 </resources>

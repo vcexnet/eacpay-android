@@ -784,4 +784,6 @@
   <string name="txt.i_see">
     veo
   </string>
+  <string name="txt.pick_photo">Seleccionar fotos</string>
+  <string name="txt.unknown_qrcode">Qrcode desconocido</string>
 </resources>

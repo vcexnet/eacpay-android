@@ -784,4 +784,6 @@
   <string name="txt.i_see">
     Vedo
   </string>
+  <string name="txt.pick_photo">Seleziona foto</string>
+  <string name="txt.unknown_qrcode">Codice QRsconosciuto</string>
 </resources>

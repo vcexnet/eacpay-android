@@ -784,4 +784,6 @@
   <string name="txt.i_see">
     Понятно
   </string>
+  <string name="txt.pick_photo">выбор фотографии</string>
+  <string name="txt.unknown_qrcode">Неизвестный QRcode</string>
 </resources>

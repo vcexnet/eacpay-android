@@ -80,6 +80,10 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity
+            android:name=".presenter.activities.settings.CusWebActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".presenter.activities.settings.VideoActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"

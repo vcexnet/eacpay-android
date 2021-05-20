@@ -53,6 +53,7 @@ public class WebViewActivity extends BRActivity {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 Timber.d("shouldOverrideUrlLoading: %s", request.getUrl());
+                Log.i("shouldUrlLoading: ",request.getUrl().toString());
                 if ((onCloseUrl != null && request.getUrl().toString().equalsIgnoreCase(onCloseUrl)) || request.getUrl().toString().contains("_close")) {
                     onBackPressed();
                     onCloseUrl = null;

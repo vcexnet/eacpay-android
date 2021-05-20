@@ -775,4 +775,6 @@
   <string name="txt.i_see">
     我知道了
   </string>
+  <string name="txt.pick_photo">选择相册</string>
+  <string name="txt.unknown_qrcode">未知二维码</string>
 </resources>

@@ -776,4 +776,6 @@
   <string name="txt.i_see">
     我知道了
   </string>
+  <string name="txt.pick_photo">選擇照片</string>
+  <string name="txt.unknown_qrcode">未知二維碼</string>
 </resources>

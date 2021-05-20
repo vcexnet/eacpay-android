@@ -784,4 +784,6 @@
   <string name="txt.i_see">
     Jag har den!
   </string>
+  <string name="txt.pick_photo">Välj foto</string>
+  <string name="txt.unknown_qrcode">Okänd QRcode</string>
 </resources>

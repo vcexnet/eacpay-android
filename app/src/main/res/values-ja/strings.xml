@@ -784,4 +784,6 @@
   <string name="txt.i_see">
     分かりました
   </string>
+  <string name="txt.pick_photo">選択写真</string>
+  <string name="txt.unknown_qrcode">未知のQrcode</string>
 </resources>
