@@ -767,6 +767,7 @@
   <string name="supportCenter.buyEac">купить курс EAC</string>
   <string name="supportCenter.transEac">выход из eacpay курса</string>
   <string name="supportCenter.drawEac">курс горных EAC</string>
+  <string name="supportCenter.eacnode">курс создания узла Earthcoin</string>
   <string name="supportCenter.supportS">поддерживающий обмен</string>
   <string name="supportCenter.supportA">поддерживающий пруд</string>
   <string name="supportCenter.supportP">использовать eacpay для сайта и приложений</string>

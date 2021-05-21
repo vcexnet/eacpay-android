@@ -758,6 +758,7 @@
   <string name="supportCenter.buyEac">购买EAC教程</string>
   <string name="supportCenter.transEac">提币到EACPAY教程</string>
   <string name="supportCenter.drawEac">挖EAC教程</string>
+  <string name="supportCenter.eacnode">地球币节点搭建教程</string>
   <string name="supportCenter.supportS">支持交易所</string>
   <string name="supportCenter.supportA">支持矿池</string>
   <string name="supportCenter.supportP">支持EACPAY的网站和应用</string>
@@ -777,4 +778,5 @@
   </string>
   <string name="txt.pick_photo">选择相册</string>
   <string name="txt.unknown_qrcode">未知二维码</string>
+
 </resources>

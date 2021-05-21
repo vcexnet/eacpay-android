@@ -767,6 +767,7 @@
   <string name="supportCenter.buyEac">Acheter le didacticiel EAC</string>
   <string name="supportCenter.transEac">Retrait vers le tutoriel eacpay</string>
   <string name="supportCenter.drawEac">Cours Mining EAC</string>
+  <string name="supportCenter.eacnode">Tutoriel de construction de noeuds Earthcoin</string>
   <string name="supportCenter.supportS">Échange de soutien</string>
   <string name="supportCenter.supportA">Pool d"assistance</string>
   <string name="supportCenter.supportP">Sites Web et applications utilisant eacpay</string>
@@ -786,4 +787,5 @@
   </string>
   <string name="txt.pick_photo">Sélectionner une photo</string>
   <string name="txt.unknown_qrcode">QRCode inconnu</string>
+
 </resources>

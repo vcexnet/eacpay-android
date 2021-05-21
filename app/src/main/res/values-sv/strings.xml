@@ -767,6 +767,7 @@
   <string name="supportCenter.buyEac">Köp EAC-handledning</string>
   <string name="supportCenter.transEac">Dra tillbaka till eacpay handledning</string>
   <string name="supportCenter.drawEac">Kurs vid gruvdrift</string>
+  <string name="supportCenter.eacnode">Handledning för att bygga noder i Earthcoin</string>
   <string name="supportCenter.supportS">Utbyte av stöd</string>
   <string name="supportCenter.supportA">Stödgrupp</string>
   <string name="supportCenter.supportP">Webbplatser och ansökningar med hjälp av varje lön</string>
@@ -786,4 +787,5 @@
   </string>
   <string name="txt.pick_photo">Välj foto</string>
   <string name="txt.unknown_qrcode">Okänd QRcode</string>
+
 </resources>

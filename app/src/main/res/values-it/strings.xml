@@ -767,6 +767,7 @@
   <string name="supportCenter.buyEac">Acquista il tutorial EAC</string>
   <string name="supportCenter.transEac">Ritira al tutorial eacpay</string>
   <string name="supportCenter.drawEac">Corso EAC minerario</string>
+  <string name="supportCenter.eacnode">Il nodo Earthcoin costruisce tutorial</string>
   <string name="supportCenter.supportS">Scambio di supporto</string>
   <string name="supportCenter.supportA">Piscina di supporto</string>
   <string name="supportCenter.supportP">Siti web e applicazioni che utilizzano eacpay</string>
@@ -786,4 +787,5 @@
   </string>
   <string name="txt.pick_photo">Seleziona foto</string>
   <string name="txt.unknown_qrcode">Codice QRsconosciuto</string>
+
 </resources>

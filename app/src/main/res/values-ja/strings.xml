@@ -767,6 +767,7 @@
   <string name="supportCenter.buyEac">EAC教程の購入</string>
   <string name="supportCenter.transEac">お札を持ってEACPAY教程に行きます。</string>
   <string name="supportCenter.drawEac">EAC教程を掘る</string>
+  <string name="supportCenter.eacnode">Earthcoinノード構築教程</string>
   <string name="supportCenter.supportS">取引所をサポートする</string>
   <string name="supportCenter.supportA">鉱床をサポートする</string>
   <string name="supportCenter.supportP">EACPAYのウェブサイトとアプリケーションをサポートします。</string>

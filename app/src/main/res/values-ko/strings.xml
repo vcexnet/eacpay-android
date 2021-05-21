@@ -767,6 +767,7 @@
   <string name="supportCenter.buyEac">EAC 튜 토리 얼 구 매</string>
   <string name="supportCenter.transEac">EACPAY 튜 토리 얼 로 돈 을 인출 하 세 요.</string>
   <string name="supportCenter.drawEac">EAC 튜 토리 얼 발굴</string>
+  <string name="supportCenter.eacnode">Earthcoin 노드 구축 튜 토리 얼</string>
   <string name="supportCenter.supportS">지원 거래소</string>
   <string name="supportCenter.supportA">지지 광 못</string>
   <string name="supportCenter.supportP">EACPAY 를 지원 하 는 사이트 와 앱</string>

@@ -107,6 +107,19 @@
             android:gravity="center_vertical|left"
             android:text="@string/supportCenter.drawEac"></TextView>
 
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/almost_black"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:id="@+id/tv9"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical|left"
+            android:text="@string/supportCenter.eacnode"></TextView>
+
 
         <TextView
             android:textSize="18sp"
@@ -163,7 +176,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:background="@color/white"
-            android:id="@+id/tv9"
+            android:id="@+id/tv10"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:gravity="center_vertical|left"

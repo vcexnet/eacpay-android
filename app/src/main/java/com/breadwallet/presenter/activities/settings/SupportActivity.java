@@ -32,6 +32,7 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
         findViewById(R.id.tv6).setOnClickListener(this);
         findViewById(R.id.tv7).setOnClickListener(this);
         findViewById(R.id.tv8).setOnClickListener(this);
+        findViewById(R.id.tv9).setOnClickListener(this);
     }
 
 
@@ -64,10 +65,11 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
 //        3、购买EAC教程，自动播放视频，视频文件https://eacpay.com/sc/buy.mp4（中文）；https://vcexnet.github.io/img/buy.mp4（english）
 //        4、提币到eacpay教程，自动播放视频，视频文件https://eacpay.com/sc/withdraw.mp4（中文）；https://vcexnet.github.io/img/withdraw.mp4（english）
 //        5、挖EAC教程，自动播放视频，视频文件https://eacpay.com/sc/mining.mp4(中文)；https://vcexnet.github.io/img/mining.mp4(english)
-//        6、支持交易所，直接获取内容页面嵌套（https://eacpay.com/sc/exchange.html；https://vcexnet.github.io/img/exchange.html）
-//        7、支持矿池，直接获取内容页面嵌套（https://eacpay.com/sc/pool.html；https://vcexnet.github.io/img/pool.html）
-//        8、支持eacpay的网站和应用，直接获取内容页面嵌套（https://eacpay.com/sc/support.html；https://vcexnet.github.io/img/support.html）
-//        9、支持：dev@eacpay.com。仅仅显示即可。
+//        6、如何部署earthcoin节点教程，视频文件：https://eacpay.com/sc/node.mp4(中文)；https://vcexnet.github.io/img/node.mp4(english)
+//        7、支持交易所，直接获取内容页面嵌套（https://eacpay.com/sc/exchange.html；https://vcexnet.github.io/img/exchange.html）
+//        8、支持矿池，直接获取内容页面嵌套（https://eacpay.com/sc/pool.html；https://vcexnet.github.io/img/pool.html）
+//        9、支持eacpay的网站和应用，直接获取内容页面嵌套（https://eacpay.com/sc/support.html；https://vcexnet.github.io/img/support.html）
+//        10、支持：dev@eacpay.com。仅仅显示即可。
         boolean isZh = isZh();
         Intent intent = null;
         switch (v.getId()) {
@@ -105,6 +107,16 @@ public class SupportActivity extends BRActivity implements View.OnClickListener 
                 intent.putExtra("videoEnglishUrl", "https://vcexnet.github.io/img/mining.mp4");
                 intent.putExtra("title", getString(R.string.supportCenter_drawEac));
                 intent.putExtra("type", "mining_eac_course");
+                break;
+            case R.id.tv9:
+                //support exchanges
+                intent = new Intent(this,
+                        CusWebActivity.class);
+                intent.putExtra("url", isZh ?
+                        "https://eacpay.com/sc/node.html"
+                        : "https://vcexnet.github.io/img/node.html"
+                );
+                intent.putExtra("title", getString(R.string.supportCenter_eacnode));
                 break;
             case R.id.tv6:
                 //support exchanges

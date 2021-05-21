@@ -759,6 +759,7 @@
   <string name="supportCenter.buyEac">Buy EAC tutorial</string>
   <string name="supportCenter.transEac">Withdraw to eacpay tutorial</string>
   <string name="supportCenter.drawEac">Mining EAC course</string>
+  <string name="supportCenter.eacnode">Earthcoin node build tutorial</string>
   <string name="supportCenter.supportS">Support exchange</string>
   <string name="supportCenter.supportA">Support pool</string>
   <string name="supportCenter.supportP">Websites and applications using eacpay</string>

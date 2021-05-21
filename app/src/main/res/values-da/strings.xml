@@ -767,6 +767,7 @@
   <string name="supportCenter.buyEac">Køb EAC tutorial</string>
   <string name="supportCenter.transEac">Træk dig tilbage til eacpay tutorial</string>
   <string name="supportCenter.drawEac">Minedrift EAC kursus</string>
+  <string name="supportCenter.eacnode">Earthcoin node bygger tutorial</string>
   <string name="supportCenter.supportS">Support udveksling</string>
   <string name="supportCenter.supportA">Support pool</string>
   <string name="supportCenter.supportP">Hjemmesider og applikationer, der bruger eacpay</string>
@@ -786,4 +787,5 @@
   </string>
   <string name="txt.pick_photo">Vælg billede</string>
   <string name="txt.unknown_qrcode">Ukendt QRcode</string>
+
 </resources>
