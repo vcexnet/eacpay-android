@@ -33,7 +33,7 @@ android {
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 666
-        versionName "v2.0.7"
+        versionName "v2.0.8"
         multiDexEnabled true
 
         // Similar to other properties in the defaultConfig block,
