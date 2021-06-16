@@ -5,7 +5,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">部落格</string>
   <!-- About screen footer -->
-  <string name="About.footer">由伊欸瑟派地球錢包團隊製作\n%1$s</string>
+  <string name="About.footer">由Eacpay DEV Team製作\n%1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">隱私政策</string>
   <!-- About screen reddit label -->
