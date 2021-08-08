@@ -1,0 +1,80 @@
+ninja: Entering directory `/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafDebug/x86_64'
+[1/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP39Mnemonic.c.o
+[2/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBech32.c.o
+[3/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBase58.c.o
+[4/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP32Sequence.c.o
+[5/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRAddress.c.o
+[6/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBloomFilter.c.o
+[7/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP38Key.c.o
+[8/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRMerkleBlock.c.o
+[9/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRSet.c.o
+[10/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRCrypto.c.o
+[11/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRTransaction.c.o
+[12/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPaymentProtocol.c.o
+[13/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/transition/core.c.o
+[14/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBase58.c.o
+[15/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBIP32Sequence.c.o
+[16/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRWallet.c.o
+[17/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/transition/JNIKey.c.o
+[18/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPeer.c.o
+[19/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRKey.c.o
+../../../../src/main/jni/eacpay-core/BRKey.c:51:32: warning: unknown warning group '-Wmaybe-uninitialized', ignored [-Wunknown-warning-option]
+#pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
+                               ^
+1 warning generated.
+[20/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/transition/PeerManager.c.o
+../../../../src/main/jni/transition/PeerManager.c:352:15: warning: implicitly declaring library function 'calloc' with type 'void *(unsigned long, unsigned long)' [-Wimplicit-function-declaration]
+    _blocks = calloc(blockCount, sizeof(*_blocks));
+              ^
+../../../../src/main/jni/transition/PeerManager.c:352:15: note: include the header <stdlib.h> or explicitly provide a declaration for 'calloc'
+../../../../src/main/jni/transition/PeerManager.c:488:9: warning: implicit declaration of function 'free' is invalid in C99 [-Wimplicit-function-declaration]
+        free(_blocks);
+        ^
+../../../../src/main/jni/transition/PeerManager.c:493:9: warning: implicit declaration of function 'free' is invalid in C99 [-Wimplicit-function-declaration]
+        free(_peers);
+        ^
+3 warnings generated.
+[21/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPeerManager.c.o
+[22/23] Building C object CMakeFiles/core-lib.dir/src/main/jni/transition/wallet.c.o
+../../../../src/main/jni/transition/wallet.c:259:13: warning: implicit declaration of function 'free' is invalid in C99 [-Wimplicit-function-declaration]
+            free(_transactions);
+            ^
+../../../../src/main/jni/transition/wallet.c:332:21: warning: implicitly declaring library function 'calloc' with type 'void *(unsigned long, unsigned long)' [-Wimplicit-function-declaration]
+    _transactions = calloc((size_t) txCount, sizeof(*_transactions));
+                    ^
+../../../../src/main/jni/transition/wallet.c:332:21: note: include the header <stdlib.h> or explicitly provide a declaration for 'calloc'
+../../../../src/main/jni/transition/wallet.c:453:9: warning: implicit declaration of function 'free' is invalid in C99 [-Wimplicit-function-declaration]
+        free(transactions_sqlite);
+        ^
+../../../../src/main/jni/transition/wallet.c:561:35: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+      BRTransactionSetMessage(tx, cStringComment, strlen(cStringComment));
+                                  ^~~~~~~~~~~~~~
+../../../../src/main/jni/eacpay-core/BRTransaction.h:158:57: note: passing argument to parameter 'comment' here
+void BRTransactionSetMessage(BRTransaction * tx, char * comment, size_t comLen);
+                                                        ^
+../../../../src/main/jni/transition/wallet.c:566:20: warning: implicitly declaring library function 'malloc' with type 'void *(unsigned long)' [-Wimplicit-function-declaration]
+    uint8_t *buf = malloc(len);
+                   ^
+../../../../src/main/jni/transition/wallet.c:566:20: note: include the header <stdlib.h> or explicitly provide a declaration for 'malloc'
+../../../../src/main/jni/transition/wallet.c:573:5: warning: implicit declaration of function 'free' is invalid in C99 [-Wimplicit-function-declaration]
+    free(buf);
+    ^
+../../../../src/main/jni/transition/wallet.c:606:73: warning: format specifies type 'long long' but the argument has type 'jlong' (aka 'long') [-Wformat]
+                        "bitcoinAmount: localAmount: %lli, price: %lf", localAmount, price);
+                                                     ~~~~               ^~~~~~~~~~~
+                                                     %li
+../../../../src/main/jni/transition/wallet.c:614:66: warning: format specifies type 'long long' but the argument has type 'jlong' (aka 'long') [-Wformat]
+                        "localAmount: amount: %lli, price: %lf", amount, price);
+                                              ~~~~               ^~~~~~
+                                              %li
+../../../../src/main/jni/transition/wallet.c:722:33: warning: format specifies type 'long long' but the argument has type 'jlong' (aka 'long') [-Wformat]
+                        ignore, fee);
+                                ^~~
+../../../../src/main/jni/transition/wallet.c:917:11: warning: initializing 'char *' with an expression of type 'const char [65]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *result = u256hex(sha256Hash);
+          ^        ~~~~~~~~~~~~~~~~~~~
+../../../../src/main/jni/transition/wallet.c:1098:5: warning: implicit declaration of function 'free' is invalid in C99 [-Wimplicit-function-declaration]
+    free(buf);
+    ^
+11 warnings generated.
+[23/23] Linking C shared library ../../../../build/intermediates/cmake/loafDebug/obj/x86_64/libcore-lib.so

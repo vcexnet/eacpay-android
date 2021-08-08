@@ -1,0 +1,208 @@
+{
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 23,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafTestnetDebug/armeabi-v7a",
+    "cmakeServerLogFile": "/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafTestnetDebug/armeabi-v7a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/jiashenggong/github/eacpay-android/app/.cxx/cxx/loafTestnetDebug/armeabi-v7a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafTestnetDebug/armeabi-v7a",
+      "cmakeToolchain": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/jiashenggong/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_C_FLAGS",
+          "value": "-DLITECOIN_TESTNET\u003d1"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-23"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/Users/jiashenggong/github/eacpay-android/app/build/intermediates/cmake/loafTestnetDebug/obj/armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/Users/jiashenggong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "23"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "clang"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafTestnetDebug/armeabi-v7a",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafTestnetDebug/armeabi-v7a",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang"
+    ],
+    "buildTargetSet": [
+      "core-lib"
+    ],
+    "cFlagsList": [
+      "-DLITECOIN_TESTNET\u003d1"
+    ],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "/Users/jiashenggong/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/Users/jiashenggong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "cmakeToolchainFile": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/jiashenggong/github/eacpay-android/app/.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "/Users/jiashenggong/github/eacpay-android/app/build/intermediates",
+      "makeFile": "/Users/jiashenggong/github/eacpay-android/app/CMakeLists.txt",
+      "moduleBuildFile": "/Users/jiashenggong/github/eacpay-android/app/build.gradle",
+      "moduleRootFolder": "/Users/jiashenggong/github/eacpay-android/app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkVersion": "20.0.5594570",
+      "project": {
+        "compilerSettingsCacheFolder": "/Users/jiashenggong/github/eacpay-android/.cxx",
+        "cxxFolder": "/Users/jiashenggong/github/eacpay-android/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/Users/jiashenggong/github/eacpay-android",
+        "sdkFolder": "/Users/jiashenggong/Library/Android/sdk"
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "/Users/jiashenggong/github/eacpay-android/app/build/intermediates/cmake/loafTestnetDebug/obj",
+    "variantName": "loafTestnetDebug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ]
+  }
+}

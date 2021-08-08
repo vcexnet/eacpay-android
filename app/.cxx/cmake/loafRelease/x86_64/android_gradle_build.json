@@ -1,0 +1,248 @@
+{
+  "stringTable": {
+    "0": "/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafRelease/x86_64",
+    "1": "--target=x86_64-none-linux-android23 --gcc-toolchain=/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_lib_EXPORTS -I../../../../src/main/jni/eacpay-core -I../../../../src/main/secp/secp256k1/include -I../../../../src/main/secp/secp256k1/src -I../../../../src/main/secp/secp256k1 -I../../../../src/main/secp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DLITECOIN_TESTNET=0 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake",
+    "/Users/jiashenggong/github/eacpay-android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/jiashenggong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafRelease/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/jiashenggong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafRelease/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "core-lib-Release-x86_64": {
+      "buildCommand": "/Users/jiashenggong/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafRelease/x86_64\" core-lib",
+      "buildType": "release",
+      "toolchain": "2262025276",
+      "abi": "x86_64",
+      "artifactName": "core-lib",
+      "files": [
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRAddress.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBase58.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBech32.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBIP32Sequence.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBIP38Key.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBIP39Mnemonic.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBloomFilter.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRCrypto.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRKey.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRMerkleBlock.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRPaymentProtocol.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRPeer.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRPeerManager.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRSet.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRTransaction.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRWallet.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/core.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/JNIBase58.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/JNIBIP32Sequence.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/JNIKey.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/PeerManager.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/wallet.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRAddress.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRArray.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBase58.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBech32.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBIP32Sequence.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBIP38Key.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBIP39Mnemonic.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBIP39WordsEn.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRBloomFilter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRCrypto.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRInt.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRKey.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRMerkleBlock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRPaymentProtocol.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRPeer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRPeerManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRSet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRTransaction.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/eacpay-core/BRWallet.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/core.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/JNIBase58.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/JNIBIP32Sequence.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/JNIKey.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/PeerManager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/jiashenggong/github/eacpay-android/app/src/main/jni/transition/wallet.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/jiashenggong/github/eacpay-android/app/build/intermediates/cmake/loafRelease/obj/x86_64/libcore-lib.so"
+    }
+  },
+  "toolchains": {
+    "2262025276": {
+      "cCompilerExecutable": "/Users/jiashenggong/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

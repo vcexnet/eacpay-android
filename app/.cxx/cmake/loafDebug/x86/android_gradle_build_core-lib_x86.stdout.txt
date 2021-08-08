@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/jiashenggong/github/eacpay-android/app/.cxx/cmake/loafDebug/x86'
+ninja: no work to do.

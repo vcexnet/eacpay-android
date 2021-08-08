@@ -1,0 +1,27 @@
+# ninja log v5
+0	13	0	clean	307fd580390632dc
+1	20	0	clean	307fd580390632dc
+1	16	0	clean	307fd580390632dc
+6	340	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP39Mnemonic.c.o	20906cd657c8e42e
+2	361	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBase58.c.o	3f9079841119192b
+3	414	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP32Sequence.c.o	ddd51a4c84896bfe
+2	443	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBech32.c.o	fc0ccdeb5d84e0ff
+1	617	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRAddress.c.o	629572c24208616e
+341	713	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBloomFilter.c.o	fe7bbefd7ce19105
+4	807	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP38Key.c.o	6affaedc12b7c93c
+443	1056	1628353709	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRMerkleBlock.c.o	22349fbe2c242715
+1056	1339	1628353710	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRSet.c.o	da4af4184272eb24
+362	1849	1628353710	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRCrypto.c.o	793c8cbf013b0a87
+1339	2391	1628353711	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRTransaction.c.o	f8a6f2c149eee88a
+2391	2812	1628353711	CMakeFiles/core-lib.dir/src/main/jni/transition/core.c.o	a005d588fdf019cc
+617	2864	1628353711	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPaymentProtocol.c.o	676ed96e9dd97919
+2812	2991	1628353711	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBase58.c.o	2d3c4171178e44c3
+2865	3072	1628353711	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBIP32Sequence.c.o	bc8085c810232276
+2991	3355	1628353712	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIKey.c.o	156dfb9fc39a0eed
+1849	3524	1628353712	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRWallet.c.o	ee0eb53dce51a527
+714	3964	1628353712	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPeer.c.o	2852f95ef3ef8a34
+414	4922	1628353713	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRKey.c.o	1a0b87113e595dc5
+3072	4965	1628353713	CMakeFiles/core-lib.dir/src/main/jni/transition/PeerManager.c.o	1b938d38f67b889
+808	5531	1628353714	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPeerManager.c.o	993ddb90f1f5d9d3
+3355	5986	1628353714	CMakeFiles/core-lib.dir/src/main/jni/transition/wallet.c.o	244e3b2c8c1a2955
+5986	6201	1628353714	../../../../build/intermediates/cmake/loafDebug/obj/x86/libcore-lib.so	44c971e84f0730f1
