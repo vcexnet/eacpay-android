@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/extra_light_blue_background"
     android:orientation="vertical"
-    tools:context="com.breadwallet.presenter.activities.settings.VideoActivity">
+    tools:context="com.eacpay.presenter.activities.settings.VideoActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/video_toolbar"
@@ -24,7 +24,7 @@
             android:id="@+id/video_toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:id="@+id/video_toolbar_txt"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
@@ -32,7 +32,7 @@
                 android:gravity="center"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
-            <com.breadwallet.presenter.customviews.BRButton
+            <com.eacpay.presenter.customviews.BRButton
                 android:id="@+id/bak_btn"
                 android:layout_marginTop="12dp"
                 android:layout_marginStart="16dp"

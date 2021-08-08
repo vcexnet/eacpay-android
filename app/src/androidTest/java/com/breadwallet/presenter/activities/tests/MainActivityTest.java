@@ -1,11 +1,11 @@
-//package com.breadwallet.presenter.activities.tests;
+//package com.eacpay.presenter.activities.tests;
 //
 //import android.support.test.rule.ActivityTestRule;
 //import android.support.test.runner.AndroidJUnit4;
 //
-//import com.breadwallet.R;
-//import com.breadwallet.presenter.activities.MainActivity;
-//import com.breadwallet.tools.adapter.CurrencyListAdapter;
+//import com.eacpay.R;
+//import com.eacpay.presenter.activities.MainActivity;
+//import com.eacpay.tools.adapter.CurrencyListAdapter;
 //
 //import org.junit.Rule;
 //import org.junit.Test;

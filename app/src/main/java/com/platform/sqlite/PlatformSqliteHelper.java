@@ -3,7 +3,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.breadwallet.tools.util.BRConstants;
+import com.eacpay.tools.util.BRConstants;
 
 import timber.log.Timber;
 

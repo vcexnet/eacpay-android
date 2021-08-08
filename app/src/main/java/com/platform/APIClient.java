@@ -7,17 +7,17 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.NetworkOnMainThreadException;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.BuildConfig;
-import com.breadwallet.presenter.activities.util.ActivityUTILS;
-import com.breadwallet.tools.crypto.Base58;
-import com.breadwallet.tools.crypto.CryptoHelper;
-import com.breadwallet.tools.manager.BRApiManager;
-import com.breadwallet.tools.manager.BRSharedPrefs;
-import com.breadwallet.tools.security.BRKeyStore;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
-import com.breadwallet.wallet.BRWalletManager;
+import com.eacpay.EacApp;
+import com.eacpay.BuildConfig;
+import com.eacpay.presenter.activities.util.ActivityUTILS;
+import com.eacpay.tools.crypto.Base58;
+import com.eacpay.tools.crypto.CryptoHelper;
+import com.eacpay.tools.manager.BRApiManager;
+import com.eacpay.tools.manager.BRSharedPrefs;
+import com.eacpay.tools.security.BRKeyStore;
+import com.eacpay.tools.threads.BRExecutor;
+import com.eacpay.tools.util.Utils;
+import com.eacpay.wallet.BRWalletManager;
 import com.jniwrappers.BRKey;
 import com.platform.kvstore.RemoteKVStore;
 import com.platform.kvstore.ReplicatedKVStore;
@@ -60,14 +60,14 @@ import okio.Buffer;
 import okio.BufferedSink;
 import timber.log.Timber;
 
-import static com.breadwallet.tools.util.BRCompressor.gZipExtract;
+import static com.eacpay.tools.util.BRCompressor.gZipExtract;
 public class APIClient {
 
     // proto is the transport protocol to use for talking to the API (either http or https)
     private static final String PROTO = "https";
 
     // convenience getter for the API endpoint
-    public static String BASE_URL = PROTO + "://" + BreadApp.HOST;
+    public static String BASE_URL = PROTO + "://" + EacApp.HOST;
     //feePerKb url
     private static final String FEE_PER_KB_URL = "/v1/fee-per-kb";
     //token
@@ -165,7 +165,7 @@ public class APIClient {
         if (ActivityUTILS.isMainThread()) {
             throw new NetworkOnMainThreadException();
         }
-        if (ctx == null) ctx = BreadApp.getBreadContext();
+        if (ctx == null) ctx = EacApp.getBreadContext();
         if (ctx == null) return null;
         String strUtl = BASE_URL + ME;
         Request request = new Request.Builder()
@@ -195,7 +195,7 @@ public class APIClient {
         if (ActivityUTILS.isMainThread()) {
             throw new NetworkOnMainThreadException();
         }
-        if (ctx == null) ctx = BreadApp.getBreadContext();
+        if (ctx == null) ctx = EacApp.getBreadContext();
         if (ctx == null) return null;
         try {
             String strUtl = BASE_URL + TOKEN;
@@ -306,7 +306,7 @@ public class APIClient {
                 Uri newUri = Uri.parse(newLocation);
                 if (newUri == null) {
                     Timber.d("sendRequest: redirect uri is null");
-                } else if (!newUri.getHost().equalsIgnoreCase(BreadApp.HOST) || !newUri.getScheme().equalsIgnoreCase(PROTO)) {
+                } else if (!newUri.getHost().equalsIgnoreCase(EacApp.HOST) || !newUri.getScheme().equalsIgnoreCase(PROTO)) {
                     Timber.d("sendRequest: WARNING: redirect is NOT safe: %s", newLocation);
                 } else {
                     Timber.d("redirecting: %s >>> %s", request.url(), newLocation);
@@ -575,7 +575,7 @@ public class APIClient {
     }
 
     public boolean tryExtractTar() {
-        Context app = BreadApp.getBreadContext();
+        Context app = EacApp.getBreadContext();
         if (app == null) {
             Timber.i("tryExtractTar: failed to extract, app is null");
             return false;

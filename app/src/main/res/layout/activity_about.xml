@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/extra_light_blue_background"
-    tools:context="com.breadwallet.presenter.activities.SetPinActivity">
+    tools:context="com.eacpay.presenter.activities.SetPinActivity">
 
     <RelativeLayout
         android:id="@+id/view3"
@@ -31,7 +31,7 @@
 
     </RelativeLayout>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
         android:layout_marginLeft="16dp"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         app:customTFont="BarlowSemiCondensed-Medium.ttf"
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
@@ -99,7 +99,7 @@
         app:layout_constraintBottom_toTopOf="@+id/view4"
         app:layout_constraintLeft_toLeftOf="@+id/divider1"/>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         app:customTFont="BarlowSemiCondensed-Medium.ttf"
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView24"
         android:src="@drawable/ic_share"/>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         app:customTFont="BarlowSemiCondensed-Medium.ttf"
         android:id="@+id/policy_text"
         android:layout_width="wrap_content"
@@ -150,7 +150,7 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/info_text"/>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         android:id="@+id/info_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         app:customTFont="BarlowSemiCondensed-Medium.ttf"
         android:id="@+id/textView21"
         android:layout_width="wrap_content"

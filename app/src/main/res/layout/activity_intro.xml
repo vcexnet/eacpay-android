@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.breadwallet.presenter.customviews.BRLockScreenConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.eacpay.presenter.customviews.BRLockScreenConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/intro_layout"
@@ -8,7 +8,7 @@
     android:background="@color/litecoin_litewallet_blue"
     android:orientation="vertical">
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         android:id="@+id/version_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -48,7 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logoImgV" />
 
-    <com.breadwallet.presenter.customviews.BRButton
+    <com.eacpay.presenter.customviews.BRButton
         android:id="@+id/button_new_wallet"
         android:layout_width="0dp"
         android:layout_height="80dp"
@@ -67,7 +67,7 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:textColor="@color/white" />
 
-    <com.breadwallet.presenter.customviews.BRButton
+    <com.eacpay.presenter.customviews.BRButton
         android:id="@+id/button_recover_wallet"
         android:layout_width="0dp"
         android:layout_height="80dp"
@@ -84,4 +84,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-</com.breadwallet.presenter.customviews.BRLockScreenConstraintLayout>
+</com.eacpay.presenter.customviews.BRLockScreenConstraintLayout>

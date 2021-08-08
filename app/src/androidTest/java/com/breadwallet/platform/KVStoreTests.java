@@ -1,12 +1,12 @@
-package com.breadwallet.platform;
+package com.eacpay.platform;
 
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.breadwallet.presenter.activities.intro.WriteDownActivity;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.BRConstants;
+import com.eacpay.presenter.activities.intro.WriteDownActivity;
+import com.eacpay.tools.threads.BRExecutor;
+import com.eacpay.tools.util.BRConstants;
 import com.platform.entities.TxMetaData;
 import com.platform.interfaces.KVStoreAdaptor;
 import com.platform.kvstore.CompletionObject;

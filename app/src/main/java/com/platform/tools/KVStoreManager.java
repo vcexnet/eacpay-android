@@ -2,9 +2,9 @@ package com.platform.tools;
 
 import android.content.Context;
 
-import com.breadwallet.tools.crypto.CryptoHelper;
-import com.breadwallet.tools.util.BRCompressor;
-import com.breadwallet.tools.util.Utils;
+import com.eacpay.tools.crypto.CryptoHelper;
+import com.eacpay.tools.util.BRCompressor;
+import com.eacpay.tools.util.Utils;
 import com.platform.APIClient;
 import com.platform.entities.TxMetaData;
 import com.platform.entities.WalletInfo;

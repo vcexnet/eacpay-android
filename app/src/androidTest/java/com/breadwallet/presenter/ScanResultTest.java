@@ -1,4 +1,4 @@
-//package com.breadwallet.presenter;
+//package com.eacpay.presenter;
 //
 //import android.support.test.rule.ActivityTestRule;
 //import android.support.test.runner.AndroidJUnit4;
@@ -6,8 +6,8 @@
 //import android.widget.Button;
 //import android.widget.TextView;
 //
-//import com.breadwallet.R;
-//import com.breadwallet.presenter.activities.MainActivity;
+//import com.eacpay.R;
+//import com.eacpay.presenter.activities.MainActivity;
 //
 //import org.junit.Before;
 //import org.junit.Rule;

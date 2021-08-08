@@ -1,22 +1,22 @@
-package com.breadwallet.database;
+package com.eacpay.database;
 
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.util.Log;
 
-import com.breadwallet.presenter.activities.intro.IntroActivity;
-import com.breadwallet.presenter.entities.BRMerkleBlockEntity;
-import com.breadwallet.presenter.entities.BRPeerEntity;
-import com.breadwallet.presenter.entities.BRTransactionEntity;
-import com.breadwallet.presenter.entities.BlockEntity;
-import com.breadwallet.presenter.entities.CurrencyEntity;
-import com.breadwallet.presenter.entities.PeerEntity;
-import com.breadwallet.tools.sqlite.CurrencyDataSource;
-import com.breadwallet.tools.sqlite.MerkleBlockDataSource;
-import com.breadwallet.tools.sqlite.PeerDataSource;
-import com.breadwallet.tools.sqlite.TransactionDataSource;
-import com.breadwallet.tools.threads.BRExecutor;
+import com.eacpay.presenter.activities.intro.IntroActivity;
+import com.eacpay.presenter.entities.BRMerkleBlockEntity;
+import com.eacpay.presenter.entities.BRPeerEntity;
+import com.eacpay.presenter.entities.BRTransactionEntity;
+import com.eacpay.presenter.entities.BlockEntity;
+import com.eacpay.presenter.entities.CurrencyEntity;
+import com.eacpay.presenter.entities.PeerEntity;
+import com.eacpay.tools.sqlite.CurrencyDataSource;
+import com.eacpay.tools.sqlite.MerkleBlockDataSource;
+import com.eacpay.tools.sqlite.PeerDataSource;
+import com.eacpay.tools.sqlite.TransactionDataSource;
+import com.eacpay.tools.threads.BRExecutor;
 
 import org.junit.After;
 import org.junit.Assert;

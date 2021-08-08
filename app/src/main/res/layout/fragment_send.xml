@@ -43,7 +43,7 @@
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="81dp" />
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
             android:layout_height="70dp"
             android:orientation="horizontal">
 
-            <com.breadwallet.presenter.customviews.BREdit
+            <com.eacpay.presenter.customviews.BREdit
                 android:id="@+id/address_edit"
                 android:layout_width="0dp"
                 android:layout_height="32dp"
@@ -98,7 +98,7 @@
                 android:inputType="textPersonName"
                 android:singleLine="true" />
 
-            <com.breadwallet.presenter.customviews.BRButton
+            <com.eacpay.presenter.customviews.BRButton
                 android:id="@+id/paste_button"
                 style="@style/Send_ActionButStyle"
                 android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
                 app:buttonType="2"
                 app:isBreadButton="true" />
 
-            <com.breadwallet.presenter.customviews.BRButton
+            <com.eacpay.presenter.customviews.BRButton
                 android:id="@+id/scan"
                 style="@style/Send_ActionButStyle"
                 android:layout_width="wrap_content"
@@ -136,7 +136,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintTop_toBottomOf="@+id/separator">
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:id="@+id/iso_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -150,7 +150,7 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.breadwallet.presenter.customviews.BREdit
+            <com.eacpay.presenter.customviews.BREdit
                 android:id="@+id/amount_edit"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                 app:layout_constraintTop_toTopOf="@+id/iso_text"
                 app:layout_constraintVertical_bias="0.5" />
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:id="@+id/balance_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -185,7 +185,7 @@
                 app:layout_constraintLeft_toLeftOf="@+id/iso_text"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:id="@+id/fee_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
                 app:layout_constraintLeft_toLeftOf="@+id/iso_text"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.breadwallet.presenter.customviews.BRButton
+            <com.eacpay.presenter.customviews.BRButton
                 android:id="@+id/iso_button"
                 style="@style/Send_ActionButStyle"
                 android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.breadwallet.presenter.customviews.BRLinearLayoutWithCaret
+        <com.eacpay.presenter.customviews.BRLinearLayoutWithCaret
             android:id="@+id/fee_buttons_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -237,7 +237,7 @@
             app:strokeColor="@color/extra_light_gray"
             app:withStroke="true">
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -247,7 +247,7 @@
                 android:textSize="@dimen/sub_header"
                 android:textStyle="bold" />
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:id="@+id/fee_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -293,7 +293,7 @@
 
             </RadioGroup>
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.eacpay.presenter.customviews.BRText
                 android:id="@+id/warning_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -304,7 +304,7 @@
                 tools:text="@string/FeeSelector.economyWarning"
                 tools:textColor="@color/red_text" />
 
-        </com.breadwallet.presenter.customviews.BRLinearLayoutWithCaret>
+        </com.eacpay.presenter.customviews.BRLinearLayoutWithCaret>
 
         <View
             android:id="@+id/separator2"
@@ -318,7 +318,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.breadwallet.presenter.customviews.BRKeyboard
+            <com.eacpay.presenter.customviews.BRKeyboard
                 android:id="@+id/keyboard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -337,7 +337,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.breadwallet.presenter.customviews.BRButton
+            <com.eacpay.presenter.customviews.BRButton
                 android:id="@+id/donate_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -366,7 +366,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp">
 
-            <com.breadwallet.presenter.customviews.BREdit
+            <com.eacpay.presenter.customviews.BREdit
                 android:id="@+id/comment_edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -391,7 +391,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp">
 
-            <com.breadwallet.presenter.customviews.BREdit
+            <com.eacpay.presenter.customviews.BREdit
                 android:id="@+id/transition_edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -415,7 +415,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp">
 
-            <com.breadwallet.presenter.customviews.BREdit
+            <com.eacpay.presenter.customviews.BREdit
                 android:id="@+id/ipfs_edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -436,7 +436,7 @@
             android:layout_height="1dp"
             android:background="@color/extra_light_gray" />
 
-        <com.breadwallet.presenter.customviews.BRButton
+        <com.eacpay.presenter.customviews.BRButton
             android:id="@+id/send_button"
             android:layout_width="match_parent"
             android:layout_height="80dp"

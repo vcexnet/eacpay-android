@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.breadwallet.presenter.customviews.BRLockScreenConstraintLayout
+<com.eacpay.presenter.customviews.BRLockScreenConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/litecoin_litewallet_blue"
-    tools:context="com.breadwallet.presenter.activities.LoginActivity">
+    tools:context="com.eacpay.presenter.activities.LoginActivity">
 
     <ImageView
         android:id="@+id/title"
@@ -84,7 +84,7 @@
             android:background="@drawable/ic_pin_dot_white"/>
     </LinearLayout>
 
-    <com.breadwallet.presenter.customviews.BRKeyboard
+    <com.eacpay.presenter.customviews.BRKeyboard
         android:id="@+id/brkeyboard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:showAlphabet="true"/>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         android:id="@+id/enter_pin_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -122,7 +122,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.breadwallet.presenter.customviews.BRButton
+        <com.eacpay.presenter.customviews.BRButton
             android:id="@+id/left_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
             app:customBFont="BarlowSemiCondensed-Medium.ttf"
             app:isBreadButton="false" />
 
-        <com.breadwallet.presenter.customviews.BRButton
+        <com.eacpay.presenter.customviews.BRButton
             android:id="@+id/right_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -165,7 +165,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         android:id="@+id/unlocked_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
         app:layout_constraintLeft_toLeftOf="@+id/unlocked_image"
         app:layout_constraintRight_toRightOf="@+id/unlocked_image"/>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.eacpay.presenter.customviews.BRText
         android:id="@+id/version_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -207,4 +207,4 @@
         app:layout_constraintBottom_toTopOf="@+id/brkeyboard"
         app:layout_constraintRight_toRightOf="parent"/>
 
-</com.breadwallet.presenter.customviews.BRLockScreenConstraintLayout>
+</com.eacpay.presenter.customviews.BRLockScreenConstraintLayout>

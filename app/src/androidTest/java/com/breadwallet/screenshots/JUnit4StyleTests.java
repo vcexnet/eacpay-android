@@ -1,12 +1,12 @@
-package com.breadwallet.screenshots;
+package com.eacpay.screenshots;
 
 import android.os.Build;
 import androidx.test.espresso.Espresso;
 import androidx.test.espresso.IdlingPolicies;
 import androidx.test.rule.ActivityTestRule;
 
-import com.breadwallet.R;
-import com.breadwallet.presenter.activities.BreadActivity;
+import com.eacpay.R;
+import com.eacpay.presenter.activities.BreadActivity;
 
 import org.junit.After;
 import org.junit.Before;
@@ -22,7 +22,6 @@ import java.util.concurrent.TimeUnit;
 import static androidx.test.espresso.Espresso.onData;
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
-import static androidx.test.espresso.matcher.ViewMatchers.isCompletelyDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.allOf;

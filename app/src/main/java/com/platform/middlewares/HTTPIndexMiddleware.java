@@ -1,13 +1,10 @@
 package com.platform.middlewares;
 
-import android.app.Activity;
 import android.content.Context;
-import android.util.Log;
 
-import com.breadwallet.BreadApp;
+import com.eacpay.EacApp;
 import com.platform.APIClient;
 import com.platform.BRHTTPHelper;
-import com.platform.HTTPServer;
 import com.platform.interfaces.Middleware;
 
 import junit.framework.Assert;
@@ -26,7 +23,7 @@ public class HTTPIndexMiddleware implements Middleware {
     @Override
     public boolean handle(String target, org.eclipse.jetty.server.Request baseRequest, HttpServletRequest request, HttpServletResponse response) {
         Timber.d("handling: " + target + " " + baseRequest.getMethod());
-        Context app = BreadApp.getBreadContext();
+        Context app = EacApp.getBreadContext();
         if (app == null) {
             Timber.i("handle: app is null!");
             return true;

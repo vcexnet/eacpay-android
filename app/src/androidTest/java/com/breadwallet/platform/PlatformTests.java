@@ -1,14 +1,14 @@
-package com.breadwallet.platform;
+package com.eacpay.platform;
 
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.util.Log;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.presenter.activities.BreadActivity;
-import com.breadwallet.tools.util.BRCompressor;
-import com.breadwallet.tools.util.BRConstants;
-import com.breadwallet.tools.util.Utils;
+import com.eacpay.EacApp;
+import com.eacpay.presenter.activities.BreadActivity;
+import com.eacpay.tools.util.BRCompressor;
+import com.eacpay.tools.util.BRConstants;
+import com.eacpay.tools.util.Utils;
 import com.jniwrappers.BRKey;
 import com.platform.APIClient;
 import com.platform.tools.BRBitId;
@@ -38,9 +38,9 @@ public class PlatformTests {
     // proto is the transport protocol to use for talking to the API (either http or https)
     private static final String PROTO = "https";
     // host is the server(s) on which the API is hosted
-//    private static final String HOST = "api.breadwallet.com";
+//    private static final String HOST = "api.eacpay.com";
     // convenience getter for the API endpoint
-    private static final String BASE_URL = PROTO + "://" + BreadApp.HOST;
+    private static final String BASE_URL = PROTO + "://" + EacApp.HOST;
     //feePerKb url
     private static final String FEE_PER_KB_URL = "/v1/fee-per-kb";
     //token
@@ -99,7 +99,7 @@ public class PlatformTests {
         APIClient apiClient = APIClient.getInstance(mActivityRule.getActivity());
         Request request = new Request.Builder()
                 .get()
-                .url("https://s3.amazonaws.com/breadwallet-assets/bread-buy/7f5bc5c6cc005df224a6ea4567e508491acaffdc2e4769e5262a52f5b785e261.tar").build();
+                .url("https://s3.amazonaws.com/eacpay-assets/bread-buy/7f5bc5c6cc005df224a6ea4567e508491acaffdc2e4769e5262a52f5b785e261.tar").build();
         Response response = apiClient.sendRequest(request, false, 0);
         try {
             File bundleFile = new File(apiClient.getBundleResource(mActivityRule.getActivity(), BREAD_POINT + ".tar"));
@@ -123,20 +123,20 @@ public class PlatformTests {
 //
 //        Request request = new Request.Builder()
 //                .get()
-//                .url("https://s3.amazonaws.com/breadwallet-assets/bread-buy/bundle.tar").build();
+//                .url("https://s3.amazonaws.com/eacpay-assets/bread-buy/bundle.tar").build();
 //        Response response = apiClient.sendRequest(request, false, 0);
 //        byte[] bundleFileOldBytes = apiClient.writeBundleToFile(response);
 //
 //        request = new Request.Builder()
 //                .get()
-//                .url("https://s3.amazonaws.com/breadwallet-assets/bread-buy/bundle2.tar").build();
+//                .url("https://s3.amazonaws.com/eacpay-assets/bread-buy/bundle2.tar").build();
 //        response = apiClient.sendRequest(request, false, 0);
 //        File bundleFileLatest = new File(mActivityRule.getActivity().getFilesDir().getAbsolutePath() + String.format("/%s/%s.tar", BUNDLES, BREAD_POINT + "-test"));
 //        apiClient.writeBundleToFile(response);
 //
 //        request = new Request.Builder()
 //                .get()
-//                .url("https://s3.amazonaws.com/breadwallet-assets/bread-buy/bundle_bundle2.bspatch").build();
+//                .url("https://s3.amazonaws.com/eacpay-assets/bread-buy/bundle_bundle2.bspatch").build();
 //        response = apiClient.sendRequest(request, false, 0);
 //        File patch = new File(mActivityRule.getActivity().getFilesDir().getAbsolutePath() + String.format("/%s/%s.bspatch", BUNDLES, "patch"));
 //        byte[] patchBytes = apiClient.writeBundleToFile(response);
@@ -247,7 +247,7 @@ public class PlatformTests {
     @Test
     public void testBitIdSignature() {
         BRKey key = new BRKey("c4c9b99b714074736b65d9faab39145949894233a09d8100b91104750a82d31f");
-        String message = "https://breadwallet.com/bitid?nonce=123456789";
+        String message = "https://eacpay.com/bitid?nonce=123456789";
         String expectedSig = "ICWek6XEVxu/1/x+TtWk178t6uFcToH019RWNnS+JEeJOr2XGkZKQwsSqEvJ7l3sfhUoX1jm4uWP7nmlyG5Y10E=";
         String sig = BRBitId.signMessage(message, key);
         Log.e(TAG, "sig: " + sig);

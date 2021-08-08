@@ -1,4 +1,4 @@
-//package com.breadwallet.presenter.currencyformatting.tests;
+//package com.eacpay.presenter.currencyformatting.tests;
 //
 //import android.test.AndroidTestCase;
 //

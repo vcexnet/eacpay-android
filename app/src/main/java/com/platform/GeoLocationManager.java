@@ -10,9 +10,9 @@ import android.os.Bundle;
 
 import androidx.core.app.ActivityCompat;
 
-import com.breadwallet.BreadApp;
-import com.breadwallet.tools.threads.BRExecutor;
-import com.breadwallet.tools.util.Utils;
+import com.eacpay.EacApp;
+import com.eacpay.tools.threads.BRExecutor;
+import com.eacpay.tools.util.Utils;
 
 import org.eclipse.jetty.continuation.Continuation;
 import org.eclipse.jetty.server.Request;
@@ -41,7 +41,7 @@ public class GeoLocationManager {
     public void getOneTimeGeoLocation(Continuation cont, Request req) {
         this.continuation = cont;
         this.baseRequest = req;
-        final Context app = BreadApp.getBreadContext();
+        final Context app = EacApp.getBreadContext();
         if (app == null)
             return;
         locationManager = (LocationManager) app.getSystemService(Context.LOCATION_SERVICE);
@@ -66,7 +66,7 @@ public class GeoLocationManager {
     void startGeoSocket(Session sess) {
         session = sess;
 
-        final Context app = BreadApp.getBreadContext();
+        final Context app = EacApp.getBreadContext();
         if (app == null)
             return;
         final LocationManager locationManager = (LocationManager) app.getSystemService(Context.LOCATION_SERVICE);
@@ -85,7 +85,7 @@ public class GeoLocationManager {
     }
 
     public void stopGeoSocket() {
-        final Context app = BreadApp.getBreadContext();
+        final Context app = EacApp.getBreadContext();
         if (app == null)
             return;
         final LocationManager locationManager = (LocationManager) app.getSystemService(Context.LOCATION_SERVICE);
@@ -177,7 +177,7 @@ public class GeoLocationManager {
                             Timber.e(e);
                         } finally {
                             processing = false;
-                            Context app = BreadApp.getBreadContext();
+                            Context app = EacApp.getBreadContext();
                             if (app == null || ActivityCompat.checkSelfPermission(app, Manifest.permission.ACCESS_FINE_LOCATION)
                                     != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(app,
                                     Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
