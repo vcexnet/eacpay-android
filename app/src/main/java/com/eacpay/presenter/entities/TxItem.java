@@ -18,13 +18,16 @@ public class TxItem {
     private boolean isValid;
     private int txSize;
     public TxMetaData metaData;
+    private String txComment;
+    private String txIPFS;
 
     private TxItem() {
     }
 
     public TxItem(long timeStamp, int blockHeight, byte[] hash, String txReversed, long sent,
                   long received, long fee, String to[], String from[],
-                  long balanceAfterTx, int txSize, long[] outAmounts, boolean isValid) {
+                  long balanceAfterTx, int txSize, long[] outAmounts, boolean isValid,
+                  String txComposedComment) {
         this.timeStamp = timeStamp;
         this.blockHeight = blockHeight;
         this.txReversed = txReversed;
@@ -38,6 +41,9 @@ public class TxItem {
         this.outAmounts = outAmounts;
         this.isValid = isValid;
         this.txSize = txSize;
+        int pos = txComposedComment.indexOf("\n");
+        this.txComment = (pos>0) ? txComposedComment.substring(pos+1) : txComposedComment;
+        this.txIPFS = (pos>0) ? txComposedComment.substring(0, pos) : "";
     }
 
     public int getBlockHeight() {
@@ -94,6 +100,14 @@ public class TxItem {
 
     public boolean isValid() {
         return isValid;
+    }
+
+    public String getTxComment() {
+        return txComment;
+    }
+
+    public String getIPFS() {
+        return txIPFS;
     }
 
 }
