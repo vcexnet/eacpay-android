@@ -380,6 +380,18 @@ BRTransaction *BRTransactionCopy(const BRTransaction *tx)
         BRTransactionAddOutput(cpy, tx->outputs[i].amount, tx->outputs[i].script, tx->outputs[i].scriptLen);
     }
 
+    cpy->comment = NULL;
+    cpy->commentLength = 0;
+    cpy->version = tx->version;
+    if ( (tx->version == TX_VERSION_MSG) && (tx->commentLength > 0) && (tx->comment != NULL) ) {
+        cpy->comment = malloc(1 + tx->commentLength);
+        if (cpy->comment != NULL) {
+            memcpy(cpy->comment, tx->comment, tx->commentLength);
+            cpy->commentLength = tx->commentLength;
+            cpy->comment[tx->commentLength] = 0;
+        }
+    }
+
     return cpy;
 }
 
@@ -446,9 +458,10 @@ BRTransaction *BRTransactionParse(const uint8_t *buf, size_t bufLen)
         tx->commentLength = (size_t)BRVarInt(&buf[off], (off <= bufLen ? bufLen - off : 0), &len);
         off += len;
         if ((tx->commentLength > 0) && ((off + tx->commentLength) <= bufLen)) {
-            tx->comment = malloc(tx->commentLength);
+            tx->comment = malloc(1 + tx->commentLength);
             memcpy(tx->comment, &buf[off], tx->commentLength);
             off += tx->commentLength;
+            tx->comment[tx->commentLength] = 0;
         } else {
             tx->comment = NULL;
             tx->commentLength = 0;
@@ -681,10 +694,11 @@ void BRTransactionSetMessage(BRTransaction * tx, char * comment, size_t comLen) 
         tx->commentLength = 0;
         tx->version = TX_VERSION;
         if ( (comLen > 0) && (comment != NULL) ) {
-            tx->comment = malloc(comLen);
+            tx->comment = malloc(comLen + 1);
             if (tx->comment != NULL) {
                 memcpy(tx->comment, comment, comLen);
                 tx->commentLength = comLen;
+                tx->comment[tx->commentLength] = 0;
                 tx->version = TX_VERSION_MSG;
             }
         }
