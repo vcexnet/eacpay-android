@@ -13,6 +13,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -47,6 +48,10 @@ public class FragmentTransactionItem extends Fragment {
     private TextView mConfirmationText;
     private TextView mAvailableSpend;
     private EditText mCommentText;
+    private EditText mMessageText;
+    private TextView mMessageCaption;
+    private TextView mMemoCaption;
+    private TextView mIPFSLink;
     private TextView mAmountText;
     private TextView mAddressText;
     private TextView mDateText;
@@ -65,7 +70,11 @@ public class FragmentTransactionItem extends Fragment {
         mTitle = (TextView) rootView.findViewById(R.id.title);
         mDescriptionText = (TextView) rootView.findViewById(R.id.description_text);
         mSubHeader = (TextView) rootView.findViewById(R.id.sub_header);
-        mCommentText = (EditText) rootView.findViewById(R.id.comment_text);
+        mCommentText = (EditText) rootView.findViewById(R.id.memo_text);
+        mMessageText = (EditText) rootView.findViewById(R.id.comment_text);
+        mIPFSLink = (TextView) rootView.findViewById(R.id.ipfs_link);
+        mMessageCaption = (TextView) rootView.findViewById(R.id.comment_caption);
+        mMemoCaption = (TextView) rootView.findViewById(R.id.memo_caption);
         mAmountText = (TextView) rootView.findViewById(R.id.amount_text);
         mAddressText = (TextView) rootView.findViewById(R.id.address_text);
         mDateText = (TextView) rootView.findViewById(R.id.date_text);
@@ -131,6 +140,8 @@ public class FragmentTransactionItem extends Fragment {
         String startingBalance = BRCurrency.getFormattedCurrencyString(getActivity(), iso, BRExchange.getAmountFromSatoshis(getActivity(), iso, new BigDecimal(sent ? item.getBalanceAfterTx() + txAmount.longValue() : item.getBalanceAfterTx() - txAmount.longValue())));
         String endingBalance = BRCurrency.getFormattedCurrencyString(getActivity(), iso, BRExchange.getAmountFromSatoshis(getActivity(), iso, new BigDecimal(item.getBalanceAfterTx())));
         String commentString = item.metaData == null || item.metaData.comment == null ? "" : item.metaData.comment;
+        String messageString = item.getTxComment();
+        String ipfsString = item.getIPFS();
         String sb = String.format(getString(R.string.Transaction_starting), startingBalance);
         String eb = String.format(getString(R.string.Transaction_ending), endingBalance);
         String amountString = String.format("%s %s\n\n%s\n%s", amount, item.getFee() == -1 ? "" : String.format(getString(R.string.Transaction_fee), fee), sb, eb);
@@ -146,6 +157,20 @@ public class FragmentTransactionItem extends Fragment {
                 if (app != null)
                     app.getFragmentManager().popBackStack();
                 String txUrl = BRConstants.BLOCK_EXPLORER_BASE_URL + item.getTxHashHexReversed();
+                Timber.d("txUrl = %s", txUrl);
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(txUrl));
+                startActivity(browserIntent);
+                app.overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
+            }
+        });
+
+        mIPFSLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Activity app = getActivity();
+                if (app != null)
+                    app.getFragmentManager().popBackStack();
+                String txUrl = "https://dweb.link/ipfs/" + item.getIPFS();
                 Timber.d("txUrl = %s", txUrl);
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(txUrl));
                 startActivity(browserIntent);
@@ -205,7 +230,9 @@ public class FragmentTransactionItem extends Fragment {
         mDescriptionText.setText(TextUtils.concat(descriptionString));
         mSubHeader.setText(toFrom);
         mCommentText.setText(commentString);
-
+        mMessageText.setText(messageString);
+        boolean hasTxIPFS = ipfsString.length()>0;
+        mIPFSLink.setVisibility(hasTxIPFS?View.VISIBLE:View.INVISIBLE);
         mAmountText.setText(amountString);
         mAddressText.setText(addr);
     }
