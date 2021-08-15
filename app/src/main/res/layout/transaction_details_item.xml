@@ -173,6 +173,7 @@
                     android:background="@color/separator_gray"/>
 
                 <com.eacpay.presenter.customviews.BRText
+                    android:id="@+id/memo_caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -183,12 +184,44 @@
                     />
 
                 <EditText
-                    android:id="@+id/comment_text"
+                    android:id="@+id/memo_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
                     android:textColor="@color/almost_black"
+                    />
+
+                <com.eacpay.presenter.customviews.BRText
+                    android:id="@+id/comment_caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="TX-Message"
+                    android:textColor="@color/light_gray"
+                    app:customTFont="BarlowSemiCondensed-Bold.ttf"
+                    />
+
+                <EditText
+                    android:id="@+id/comment_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:duplicateParentState="false"
+                    android:textColor="@color/almost_black" />
+
+                <com.eacpay.presenter.customviews.BRText
+                    android:id="@+id/ipfs_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="IPFS"
+                    android:textColor="@color/dark_blue"
+                    android:clickable="true"
                     />
 
                 <View
