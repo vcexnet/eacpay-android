@@ -771,13 +771,10 @@
   <string name="txt.mining_eac_course">
     EAC currently supports the aux-pow mining mode, that is, it supports joint mining. It can mining EAC while mining LTC or Doge. It needs the support of pool. If it doese not support it, please ask your pool service provider. As long as the mining machine that can mining LTC and Doge can mining EAC.
   </string>
-  <string name="txt.you_can_view">
-    Get EAC
-  </string>
-  <string name="txt.i_see">
-    I see
-  </string>
+  <string name="txt.you_can_view">Get EAC</string>
+  <string name="txt.i_see">I see</string>
   <string name="title_activity_cus_web">CusWebActivity</string>
   <string name="txt.pick_photo">Select Photo</string>
   <string name="txt.unknown_qrcode">Unknown QRcode</string>
+  <string name="tx_message">Message</string>
 </resources>

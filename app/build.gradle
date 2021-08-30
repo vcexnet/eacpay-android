@@ -32,8 +32,8 @@ android {
         applicationId = 'com.eacpay'
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 688
-        versionName "v2.0.9"
+        versionCode 700
+        versionName "v2.1.1"
         multiDexEnabled true
 
         // Similar to other properties in the defaultConfig block,

@@ -142,7 +142,7 @@ public class BRConstants {
     public static final String WEB_LINK = "https://eacpay.com";
     public static final String TOS_LINK = "https://eacpay.com/tos";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.LITECOIN_TESTNET ? "http://api.deveac.com:3000/transaction/" : "http://api.eacpay.com:9000/transaction/";
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.LITECOIN_TESTNET ? "https://blocks.deveac.com:4000/transaction/" : "https://api.eacpay.com:9000/transaction/";
 
     private BRConstants() {
     }

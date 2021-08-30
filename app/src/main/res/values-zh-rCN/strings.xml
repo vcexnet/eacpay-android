@@ -778,5 +778,6 @@
   </string>
   <string name="txt.pick_photo">选择相册</string>
   <string name="txt.unknown_qrcode">未知二维码</string>
+  <string name="tx_message">消息</string>
 
 </resources>
