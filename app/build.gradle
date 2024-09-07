@@ -1,15 +1,13 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'com.google.gms.google-services'
-
 apply plugin: 'com.google.firebase.crashlytics'
-
 android {
     signingConfigs {
         release
     }
     compileOptions {
         targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
     }
     def Properties props = new Properties()
     def propFile = file('../release.properties')
@@ -26,16 +24,15 @@ android {
         }
     }
 
-    compileSdkVersion = 29
+    compileSdkVersion = 35
     defaultConfig {
         testInstrumentationRunner = 'androidx.test.runner.AndroidJUnitRunner'
         applicationId = 'com.eacpay'
         minSdkVersion 23
-        targetSdkVersion 30
-        versionCode 700
-        versionName "v2.1.1"
+        targetSdkVersion 35
+        versionCode 703
+        versionName "v2.1.4"
         multiDexEnabled true
-
         // Similar to other properties in the defaultConfig block,
         // you can configure the ndk block for each product flavor
         // in your build configuration.
@@ -55,7 +52,9 @@ android {
         unitTests.returnDefaultValues = true
     }
     packagingOptions {
-        pickFirst 'protobuf.meta'
+        resources {
+            pickFirsts += ['protobuf.meta']
+        }
     }
     externalNativeBuild {
         cmake {
@@ -103,26 +102,6 @@ android {
             }
         }
     }
-    lintOptions {
-        // set to true to turn off analysis progress reporting by lint
-        quiet false
-        explainIssues true
-
-        // if true, only report errors
-        ignoreWarnings false
-
-        checkReleaseBuilds false
-
-        // Turns off checks for the issue IDs you specify.
-        //example: disable 'TypographyFractions','TypographyQuotes'
-        // Turns on checks for the issue IDs you specify. These checks are in
-        // addition to the default lint checks.
-        //example: enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
-        // To enable checks for only a subset of issue IDs and ignore all others,
-        // list the issue IDs with the 'check' property instead. This property overrides
-        // any issue IDs you enable or disable using the properties above.
-        // checkOnly 'NewApi', 'InlinedApi'
-    }
 
     buildTypes {
 //        gitUpdateModules()
@@ -156,7 +135,15 @@ android {
         }
 
     }
-    compileSdkVersion 29
+    compileSdk 31
+    lint {
+        checkReleaseBuilds false
+        explainIssues true
+        ignoreWarnings false
+        quiet false
+    }
+    namespace 'com.eacpay'
+    ndkVersion '21.4.7075529'
 }
 
 task copyResDirectoryToClasses(type: Copy) {
@@ -195,21 +182,21 @@ dependencies {
     implementation 'io.sigpipe:jbsdiff:1.0'
     implementation 'com.google.zxing:core:3.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'androidx.test.ext:junit:1.1.1'
-    implementation 'androidx.test:rules:1.2.0'
+    implementation 'androidx.test.ext:junit:1.1.3'
+    implementation 'androidx.test:rules:1.4.0'
     implementation 'junit:junit:4.12'
-    implementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     // add the Firebase SDK for Google Analytics
-    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.google.firebase:firebase-analytics:21.2.1'
 
     // Firebase Crashlytics.
-    implementation 'com.google.firebase:firebase-crashlytics:17.0.0-beta01'
+    implementation 'com.google.firebase:firebase-crashlytics:18.3.6'
 
     // Firebase Crashlytics NDK
-    implementation 'com.google.firebase:firebase-crashlytics-ndk:17.0.0-beta01'
+    implementation 'com.google.firebase:firebase-crashlytics-ndk:18.3.6'
 
     // Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
-    implementation 'com.google.android.exoplayer:exoplayer:2.14.0'
+    implementation "com.google.android.exoplayer:exoplayer:2.14.0"
 }

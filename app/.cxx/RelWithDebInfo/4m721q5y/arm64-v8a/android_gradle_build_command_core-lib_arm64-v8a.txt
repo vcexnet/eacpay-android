@@ -1,0 +1,7 @@
+Executable : /Users/jimmygong/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/jimmygong/eacpay-android/app/.cxx/RelWithDebInfo/4m721q5y/arm64-v8a
+core-lib
+jvmArgs : 
+

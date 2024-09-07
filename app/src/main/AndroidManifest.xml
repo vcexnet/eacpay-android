@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.eacpay">
-
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -16,7 +14,6 @@
     <uses-permission android:name="android.permission.BIND_JOB_SERVICE" /> <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> <!-- Allows changing locales -->
     <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
-
     <uses-feature
         android:name="android.hardware.location.gps"
         android:required="false"/>
@@ -25,14 +22,13 @@
         android:required="false"/>
     <uses-feature
         android:name="android.hardware.telephony"
-        android:required="false"/>
+        android:required="false" />
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true"/>
     <uses-feature
         android:name="android.hardware.camera.autofocus"
         android:required="false"/>
-
     <application
         android:name=".EacApp"
         android:allowBackup="false"
@@ -49,10 +45,10 @@
             android:name="com.eacpay.presenter.activities.intro.IntroActivity"
             android:label="@string/About.appName.android"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -62,19 +58,17 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="adjustPan">
+            android:windowSoftInputMode="adjustPan"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data android:scheme="litecoin" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
-
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
@@ -91,7 +85,8 @@
         <activity
             android:name="com.eacpay.presenter.activities.SetPinActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            ></activity>
         <activity
             android:name="com.eacpay.presenter.activities.intro.RecoverActivity"
             android:launchMode="singleTask"
@@ -143,7 +138,8 @@
         <activity
             android:name="com.eacpay.presenter.activities.settings.SecurityCenterActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            android:exported="false"></activity>
         <activity
             android:name="com.eacpay.presenter.activities.settings.ShareDataActivity"
             android:launchMode="singleTask"
@@ -167,7 +163,8 @@
         <activity
             android:name="com.eacpay.presenter.activities.InputWordsActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            android:exported="false"></activity>
         <activity
             android:name="com.eacpay.presenter.activities.camera.ScanQRActivity"
             android:launchMode="singleTask"
@@ -207,9 +204,8 @@
 
         <service
             android:name="com.eacpay.tools.listeners.SyncReceiver"
-            android:enabled="true"
             android:exported="false"
+            android:enabled="true"
             android:label="SyncReceiver" />
     </application>
-
 </manifest>

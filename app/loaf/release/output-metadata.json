@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.eacpay",
+  "variantName": "loafRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 703,
+      "versionName": "v2.1.4",
+      "outputFile": "app-loaf-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

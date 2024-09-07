@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/jimmygong/eacpay-android/app/.cxx/Debug/5p4k4z6s/arm64-v8a'
+ninja: no work to do.

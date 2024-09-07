@@ -1,0 +1,24 @@
+# ninja log v5
+4	215	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBloomFilter.c.o	9479a5fda8266004
+1	234	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP32Sequence.c.o	797b5a1354d95043
+1	245	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBase58.c.o	6433a93e03430977
+3	261	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP39Mnemonic.c.o	4d5ce824502b8332
+1	303	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBech32.c.o	8e639ea427dcbe1
+0	318	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRAddress.c.o	beb8342317b9335d
+261	413	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRSet.c.o	5f6b46fadb262d3c
+2	505	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRBIP38Key.c.o	342acf97948816ad
+216	525	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRMerkleBlock.c.o	1c74829c215d7dba
+414	534	1722253207	CMakeFiles/core-lib.dir/src/main/jni/transition/core.c.o	538099a1b6eb4290
+505	594	1722253207	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBase58.c.o	229a2d49e3757b6
+525	616	1722253207	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIBIP32Sequence.c.o	7e62130808bb9083
+534	649	1722253207	CMakeFiles/core-lib.dir/src/main/jni/transition/JNIKey.c.o	2af27872fec24c1
+304	717	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRTransaction.c.o	395cf4c44af1d57a
+318	840	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRWallet.c.o	ba42813f69757e26
+595	913	1722253207	CMakeFiles/core-lib.dir/src/main/jni/transition/PeerManager.c.o	97cc22582ab7f670
+234	937	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPaymentProtocol.c.o	2849debf693d5722
+4	970	1722253207	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRCrypto.c.o	34f604f7cd16a507
+0	1226	1722253208	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPeer.c.o	894c321d092a36fd
+616	1263	1722253208	CMakeFiles/core-lib.dir/src/main/jni/transition/wallet.c.o	44a12c3fe1db363c
+245	1386	1722253208	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRPeerManager.c.o	3546f19452115d2f
+4	2101	1722253209	CMakeFiles/core-lib.dir/src/main/jni/eacpay-core/BRKey.c.o	c40b40b4c2289af9
+2101	2160	1722253209	../../../../build/intermediates/cxx/RelWithDebInfo/4m721q5y/obj/armeabi-v7a/libcore-lib.so	d00572ba567a85a

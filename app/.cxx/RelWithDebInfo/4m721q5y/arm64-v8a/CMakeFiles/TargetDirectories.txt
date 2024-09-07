@@ -1,0 +1,3 @@
+/Users/jimmygong/eacpay-android/app/.cxx/RelWithDebInfo/4m721q5y/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/jimmygong/eacpay-android/app/.cxx/RelWithDebInfo/4m721q5y/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/jimmygong/eacpay-android/app/.cxx/RelWithDebInfo/4m721q5y/arm64-v8a/CMakeFiles/core-lib.dir
